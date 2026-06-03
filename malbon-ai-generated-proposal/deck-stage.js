@@ -99,11 +99,6 @@
   const FINE_POINTER_MQ = matchMedia('(hover: hover) and (pointer: fine)');
   const NARROW_MQ = matchMedia('(max-width: 640px)');
   const COARSE_POINTER_MQ = matchMedia('(pointer: coarse)');
-  // Orientation via media query, not innerWidth>innerHeight: mobile webviews
-  // (incl. the WeChat in-app browser) report stale window dimensions for a
-  // beat during/after an orientation change, which made the rotate decision
-  // flicker. The MQ is resolved by the layout engine and stays correct.
-  const PORTRAIT_MQ = matchMedia('(orientation: portrait)');
   // Slide-authored controls that should keep a tap instead of it navigating.
   const INTERACTIVE_SEL = 'a[href], button, input, select, textarea, summary, label, video[controls], audio[controls], [role="button"], [onclick], [tabindex]:not([tabindex^="-"]), [contenteditable]:not([contenteditable="false" i])';
 
@@ -615,15 +610,6 @@
       this._syncPrintPageRule();
       window.addEventListener('keydown', this._onKey);
       window.addEventListener('resize', this._onResize);
-      // Orientation changes don't always fire a timely 'resize' in mobile
-      // webviews; bind orientationchange and the orientation/pointer media
-      // queries directly so the rotate decision (_fit) re-runs immediately.
-      window.addEventListener('orientationchange', this._onResize);
-      this._mqRefit = [PORTRAIT_MQ, COARSE_POINTER_MQ].filter(mq => {
-        if (mq.addEventListener) { mq.addEventListener('change', this._onResize); return true; }
-        if (mq.addListener) { mq.addListener(this._onResize); return true; }
-        return false;
-      });
       window.addEventListener('mousemove', this._onMouseMove, { passive: true });
       window.addEventListener('message', this._onMessage);
       window.addEventListener('click', this._onDocClick, true);
@@ -831,11 +817,6 @@
     disconnectedCallback() {
       window.removeEventListener('keydown', this._onKey);
       window.removeEventListener('resize', this._onResize);
-      window.removeEventListener('orientationchange', this._onResize);
-      (this._mqRefit || []).forEach(mq => {
-        if (mq.removeEventListener) mq.removeEventListener('change', this._onResize);
-        else if (mq.removeListener) mq.removeListener(this._onResize);
-      });
       window.removeEventListener('mousemove', this._onMouseMove);
       window.removeEventListener('message', this._onMessage);
       window.removeEventListener('click', this._onDocClick, true);
@@ -1195,15 +1176,6 @@
       }, OVERLAY_HIDE_MS);
     }
 
-    // True on a portrait touch device (phone, or portrait tablet). A 16:9
-    // slide can't fill a portrait screen, so _fit() rotates it 90° to fill
-    // the width instead of letterboxing it into a thin centred strip.
-    // Excludes desktop, print, and the noscale PPTX-export path.
-    _shouldRotate() {
-      if (this.hasAttribute('noscale')) return false;
-      return COARSE_POINTER_MQ.matches && PORTRAIT_MQ.matches;
-    }
-
     _railWidth() {
       // State-based, no offsetWidth: the first _fit() can run before the
       // rail has had layout on some load paths, and a 0 there paints the
@@ -1235,14 +1207,6 @@
       if (this._overlay) this._overlay.style.marginLeft = (rw / 2) + 'px';
       const vw = window.innerWidth - rw;
       const vh = window.innerHeight;
-      if (this._shouldRotate()) {
-        // Rotated 90°, the canvas's on-screen footprint is designHeight wide
-        // by designWidth tall, so fit against the swapped dimensions. Pivots
-        // about the (flex-centred) stage centre via transform-origin.
-        const s = Math.min(vw / this.designHeight, vh / this.designWidth);
-        this._canvas.style.transform = `rotate(90deg) scale(${s})`;
-        return;
-      }
       const s = Math.min(vw / this.designWidth, vh / this.designHeight);
       this._canvas.style.transform = `scale(${s})`;
     }
