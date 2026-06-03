@@ -99,6 +99,11 @@
   const FINE_POINTER_MQ = matchMedia('(hover: hover) and (pointer: fine)');
   const NARROW_MQ = matchMedia('(max-width: 640px)');
   const COARSE_POINTER_MQ = matchMedia('(pointer: coarse)');
+  // Orientation via media query, not innerWidth>innerHeight: mobile webviews
+  // (incl. the WeChat in-app browser) report stale window dimensions for a
+  // beat during/after an orientation change, which made the rotate decision
+  // flicker. The MQ is resolved by the layout engine and stays correct.
+  const PORTRAIT_MQ = matchMedia('(orientation: portrait)');
   // Slide-authored controls that should keep a tap instead of it navigating.
   const INTERACTIVE_SEL = 'a[href], button, input, select, textarea, summary, label, video[controls], audio[controls], [role="button"], [onclick], [tabindex]:not([tabindex^="-"]), [contenteditable]:not([contenteditable="false" i])';
 
@@ -312,7 +317,10 @@
     :host([no-rail]) .rail,
     :host([noscale]) .rail { display: none; }
     .rail[data-presenting] { display: none; }
-    @media (max-width: 640px) {
+    /* Hide the rail on phones/tablets (narrow OR any touch device): a
+       landscape phone is wider than 640px but still shouldn't surface the
+       editing rail, and reserving its width letterboxed the slide. */
+    @media (max-width: 640px), (pointer: coarse) {
       .rail, .rail-resize { display: none; }
     }
     /* User-driven show/hide (the TweaksPanel toggle) slides instead of
@@ -607,6 +615,15 @@
       this._syncPrintPageRule();
       window.addEventListener('keydown', this._onKey);
       window.addEventListener('resize', this._onResize);
+      // Orientation changes don't always fire a timely 'resize' in mobile
+      // webviews; bind orientationchange and the orientation/pointer media
+      // queries directly so the rotate decision (_fit) re-runs immediately.
+      window.addEventListener('orientationchange', this._onResize);
+      this._mqRefit = [PORTRAIT_MQ, COARSE_POINTER_MQ].filter(mq => {
+        if (mq.addEventListener) { mq.addEventListener('change', this._onResize); return true; }
+        if (mq.addListener) { mq.addListener(this._onResize); return true; }
+        return false;
+      });
       window.addEventListener('mousemove', this._onMouseMove, { passive: true });
       window.addEventListener('message', this._onMessage);
       window.addEventListener('click', this._onDocClick, true);
@@ -814,6 +831,11 @@
     disconnectedCallback() {
       window.removeEventListener('keydown', this._onKey);
       window.removeEventListener('resize', this._onResize);
+      window.removeEventListener('orientationchange', this._onResize);
+      (this._mqRefit || []).forEach(mq => {
+        if (mq.removeEventListener) mq.removeEventListener('change', this._onResize);
+        else if (mq.removeListener) mq.removeListener(this._onResize);
+      });
       window.removeEventListener('mousemove', this._onMouseMove);
       window.removeEventListener('message', this._onMessage);
       window.removeEventListener('click', this._onDocClick, true);
@@ -1179,7 +1201,7 @@
     // Excludes desktop, print, and the noscale PPTX-export path.
     _shouldRotate() {
       if (this.hasAttribute('noscale')) return false;
-      return window.innerHeight > window.innerWidth && COARSE_POINTER_MQ.matches;
+      return COARSE_POINTER_MQ.matches && PORTRAIT_MQ.matches;
     }
 
     _railWidth() {
@@ -1189,7 +1211,7 @@
       // corrects it.
       if (!this._railEnabled || !this._railVisible || this.hasAttribute('no-rail')
           || this.hasAttribute('noscale') || this._presenting || this._previewMode
-          || NARROW_MQ.matches || this._shouldRotate()) return 0;
+          || NARROW_MQ.matches || COARSE_POINTER_MQ.matches) return 0;
       return this._railPx || 0;
     }
 
