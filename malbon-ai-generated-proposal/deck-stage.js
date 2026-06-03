@@ -98,6 +98,7 @@
   const VALIDATE_ATTR = 'no_overflowing_text,no_overlapping_text,slide_sized_text';
   const FINE_POINTER_MQ = matchMedia('(hover: hover) and (pointer: fine)');
   const NARROW_MQ = matchMedia('(max-width: 640px)');
+  const COARSE_POINTER_MQ = matchMedia('(pointer: coarse)');
   // Slide-authored controls that should keep a tap instead of it navigating.
   const INTERACTIVE_SEL = 'a[href], button, input, select, textarea, summary, label, video[controls], audio[controls], [role="button"], [onclick], [tabindex]:not([tabindex^="-"]), [contenteditable]:not([contenteditable="false" i])';
 
@@ -1172,6 +1173,15 @@
       }, OVERLAY_HIDE_MS);
     }
 
+    // True on a portrait touch device (phone, or portrait tablet). A 16:9
+    // slide can't fill a portrait screen, so _fit() rotates it 90° to fill
+    // the width instead of letterboxing it into a thin centred strip.
+    // Excludes desktop, print, and the noscale PPTX-export path.
+    _shouldRotate() {
+      if (this.hasAttribute('noscale')) return false;
+      return window.innerHeight > window.innerWidth && COARSE_POINTER_MQ.matches;
+    }
+
     _railWidth() {
       // State-based, no offsetWidth: the first _fit() can run before the
       // rail has had layout on some load paths, and a 0 there paints the
@@ -1179,7 +1189,7 @@
       // corrects it.
       if (!this._railEnabled || !this._railVisible || this.hasAttribute('no-rail')
           || this.hasAttribute('noscale') || this._presenting || this._previewMode
-          || NARROW_MQ.matches) return 0;
+          || NARROW_MQ.matches || this._shouldRotate()) return 0;
       return this._railPx || 0;
     }
 
@@ -1203,6 +1213,14 @@
       if (this._overlay) this._overlay.style.marginLeft = (rw / 2) + 'px';
       const vw = window.innerWidth - rw;
       const vh = window.innerHeight;
+      if (this._shouldRotate()) {
+        // Rotated 90°, the canvas's on-screen footprint is designHeight wide
+        // by designWidth tall, so fit against the swapped dimensions. Pivots
+        // about the (flex-centred) stage centre via transform-origin.
+        const s = Math.min(vw / this.designHeight, vh / this.designWidth);
+        this._canvas.style.transform = `rotate(90deg) scale(${s})`;
+        return;
+      }
       const s = Math.min(vw / this.designWidth, vh / this.designHeight);
       this._canvas.style.transform = `scale(${s})`;
     }
