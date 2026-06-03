@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "malbon-proposal",
+  "compatibility_date": "2026-06-03",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "malbon-ai-generated-proposal"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}

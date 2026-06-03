@@ -7,3 +7,10 @@
 # Source PowerPoint (large binary) and its unzipped contents — kept locally, not committed
 *.pptx
 extracted/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
