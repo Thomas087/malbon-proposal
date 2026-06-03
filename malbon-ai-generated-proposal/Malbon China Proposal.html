@@ -88,6 +88,22 @@
       font-weight:600; color:var(--stone); border:1px solid var(--line); padding:8px 16px; border-radius:2px}
   .scr{box-shadow:0 18px 44px rgba(27,26,23,.16); border-radius:14px; overflow:hidden; background:#fff}
   .scr img{display:block;width:100%;height:100%;object-fit:cover}
+
+  /* ---------- video thumbnail + lightbox ---------- */
+  .vid-thumb{cursor:pointer;outline:none}
+  .vid-thumb .play{transition:transform .25s cubic-bezier(.2,.8,.2,1), background .25s ease}
+  .vid-thumb:hover .play,.vid-thumb:focus-visible .play{transform:scale(1.12);background:#fff}
+  .vid-thumb:focus-visible{box-shadow:0 0 0 3px var(--gold),0 18px 44px rgba(27,26,23,.16)}
+  .vid-lightbox{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;
+      background:rgba(18,24,34,.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;
+      transition:opacity .28s ease}
+  .vid-lightbox[data-open]{display:flex;opacity:1}
+  .vid-lightbox video{max-width:min(90vw,520px);max-height:88vh;border-radius:16px;background:#000;
+      box-shadow:0 30px 90px rgba(0,0,0,.6);outline:none}
+  .vid-lightbox .vid-close{position:absolute;top:26px;right:30px;width:54px;height:54px;border:none;border-radius:50%;
+      background:rgba(255,255,255,.12);color:#fff;font-size:30px;line-height:1;cursor:pointer;
+      display:flex;align-items:center;justify-content:center;transition:background .2s ease}
+  .vid-lightbox .vid-close:hover{background:rgba(255,255,255,.26)}
   .ink2{color:#46443a}
   b,strong{font-weight:600}
 
@@ -1643,12 +1659,12 @@
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:54px;margin-top:34px;flex:1;min-height:0;align-items:center">
         <div class="anim d1" style="display:flex;gap:30px;justify-content:center">
           <div style="text-align:center">
-            <div class="scr" style="width:248px;height:430px;position:relative"><img src="assets/slide44/img1.jpg" style="object-position:center" alt=""><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><div style="width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.86);display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--navy);padding-left:6px">▶</div></div></div>
+            <div class="scr vid-thumb" role="button" tabindex="0" aria-label="Play HEYTEA CGI Hybrid video" data-video="assets/videos/heytea-cgi-hybrid.mp4" onclick="openVideo(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openVideo(this)}" style="width:248px;height:430px;position:relative"><img src="assets/videos/heytea-cgi-hybrid-poster.jpg" style="object-position:center" alt=""><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><div class="play" style="width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.86);display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--navy);padding-left:6px">▶</div></div></div>
             <div style="font-size:23px;font-weight:600;margin-top:14px">HEYTEA CGI Hybrid video</div>
             <div style="font-size:21px;color:var(--gold)">Click to watch</div>
           </div>
           <div style="text-align:center;margin-top:36px">
-            <div class="scr" style="width:248px;height:430px;position:relative"><img src="assets/slide44/img1.jpg" style="object-position:right" alt=""><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><div style="width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.86);display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--navy);padding-left:6px">▶</div></div></div>
+            <div class="scr vid-thumb" role="button" tabindex="0" aria-label="Play UNIKKO 60th Anniversary video" data-video="assets/videos/unikko-60th.mp4" onclick="openVideo(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openVideo(this)}" style="width:248px;height:430px;position:relative"><img src="assets/videos/unikko-60th-poster.jpg" style="object-position:center" alt=""><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><div class="play" style="width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.86);display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--navy);padding-left:6px">▶</div></div></div>
             <div style="font-size:23px;font-weight:600;margin-top:14px">UNIKKO 60th Anniversary</div>
             <div style="font-size:21px;color:var(--gold)">Click to watch</div>
           </div>
@@ -1672,7 +1688,7 @@
       <h2 class="title sm anim">Marimekko Unikko 60 Years — events in Shanghai.</h2>
       <div style="display:grid;grid-template-columns:1.1fr 1fr;gap:64px;margin-top:36px;flex:1;min-height:0;align-items:center">
         <div class="anim d1" style="display:flex;flex-direction:column;gap:20px">
-          <div class="scr" style="height:330px"><img src="assets/slide45/img1.jpg" alt=""></div>
+          <div class="scr vid-thumb" role="button" tabindex="0" aria-label="Play Marimekko Unikko 60 Shanghai event video" data-video="assets/videos/unikko-shanghai-event.mp4" onclick="openVideo(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openVideo(this)}" style="height:330px;position:relative"><img src="assets/videos/unikko-shanghai-event-poster.jpg" alt=""><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><div class="play" style="width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.86);display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--navy);padding-left:6px">▶</div></div><div style="position:absolute;left:14px;bottom:12px;font-size:18px;font-weight:600;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.6)">Watch the event</div></div>
           <div class="scr" style="height:240px;width:75%"><img src="assets/slide45/img2.jpg" alt=""></div>
         </div>
         <div class="anim d2" style="display:flex;flex-direction:column;gap:30px">
@@ -1697,6 +1713,10 @@
     <div class="hd" style="border-color:var(--line-light)"><span class="kicker">Case Study</span><span class="hd-brand" style="color:rgba(251,248,241,.6)">Malbon × WalktheChat</span></div>
     <div class="body-area" style="padding-top:32px">
       <h2 class="title anim" style="color:var(--cream);max-width:1400px">Marimekko 10-year in China — exhibition in Beijing.</h2>
+      <div class="anim d1" style="margin-top:34px;display:flex;align-items:flex-end;gap:34px">
+        <div class="scr vid-thumb" role="button" tabindex="0" aria-label="Play Marimekko 10-year Beijing exhibition video" data-video="assets/videos/marimekko-beijing-exhibition.mp4" onclick="openVideo(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openVideo(this)}" style="width:560px;height:315px;position:relative;flex:0 0 auto"><img src="assets/videos/marimekko-beijing-exhibition-poster.jpg" alt=""><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><div class="play" style="width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.86);display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--navy);padding-left:6px">▶</div></div></div>
+        <div style="font-family:var(--serif);font-style:italic;font-size:28px;color:var(--gold);padding-bottom:6px">Grand-opening exhibition walkthrough.<div style="font-family:var(--sans);font-style:normal;font-size:21px;color:rgba(251,248,241,.7);margin-top:8px">Click to watch the Beijing space.</div></div>
+      </div>
       <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:30px;margin-top:auto;align-items:end">
         <div class="anim d1" style="border-top:1px solid var(--line-light);padding-top:22px"><div class="kpi-num gold">3M+</div><div class="kpi-cap" style="color:rgba(251,248,241,.78)">Impressions</div></div>
         <div class="anim d1" style="border-top:1px solid var(--line-light);padding-top:22px"><div class="kpi-num gold">10,600+</div><div class="kpi-cap" style="color:rgba(251,248,241,.78)">Engagements</div></div>
@@ -1817,6 +1837,42 @@
 
 
 </deck-stage>
+
+<!-- Video lightbox (sits above the scaled deck stage) -->
+<div class="vid-lightbox" id="vidLightbox" onclick="if(event.target===this)closeVideo()">
+  <button class="vid-close" type="button" aria-label="Close video" onclick="closeVideo()">&times;</button>
+  <video id="vidPlayer" controls playsinline preload="none"></video>
+</div>
+<script>
+  (function(){
+    var box = document.getElementById('vidLightbox');
+    var player = document.getElementById('vidPlayer');
+    window.openVideo = function(el){
+      var src = el.getAttribute('data-video');
+      if (!src) return;
+      var poster = el.querySelector('img');
+      if (poster) player.poster = poster.getAttribute('src');
+      player.src = src;
+      box.setAttribute('data-open','');
+      var p = player.play();
+      if (p && p.catch) p.catch(function(){});
+    };
+    window.closeVideo = function(){
+      box.removeAttribute('data-open');
+      player.pause();
+      player.removeAttribute('src');
+      player.removeAttribute('poster');
+      player.load();
+    };
+    // Escape closes the lightbox; capture phase so the deck never sees the key.
+    window.addEventListener('keydown', function(e){
+      if (e.key === 'Escape' && box.hasAttribute('data-open')){
+        e.stopPropagation();
+        closeVideo();
+      }
+    }, true);
+  })();
+</script>
 <script src="deck-stage.js"></script>
 </body>
 </html>
