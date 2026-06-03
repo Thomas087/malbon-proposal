@@ -1,0 +1,559 @@
+[
+  {
+    "slide_number": 33,
+    "slide_role": "Content",
+    "title": "We recommend using the Xiaohongxing Tracker tool to gain deeper insights into influencer performance and optimize campaign effectiveness and collaboration strategies.",
+    "text_hierarchy": [
+      {
+        "role": "title",
+        "text": "We recommend using the Xiaohongxing Tracker tool to gain deeper insights into influencer performance and optimize campaign effectiveness and collaboration strategies."
+      },
+      {
+        "role": "heading",
+        "text": "Xiaohongxing enables to know:",
+        "children": [
+          { "role": "body", "text": "# of store visits coming from Red" },
+          { "role": "body", "text": "# of add to carts" },
+          { "role": "body", "text": "# of Red-related purchases" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Xiaohongxing requires:",
+        "children": [
+          { "role": "body", "text": "Influencer campaigns have to be launched through the Red backend (\"Sponsored notes\")" },
+          { "role": "body", "text": "The campaign has to include at least 2 KOLs" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "ROI from Xiaohongxing varies for different industries:",
+        "children": [
+          { "role": "body", "text": "Beauty: Top-50 ROI 150%" },
+          { "role": "body", "text": "3C Electronics: Top-50 ROI 200%" },
+          { "role": "body", "text": "Fashion: Top-50 ROI 250%" },
+          { "role": "body", "text": "Home & Decor: Top-50 ROI 200%" }
+        ]
+      },
+      {
+        "role": "caption",
+        "text": "Tmall Tracking Backends Dashboard"
+      },
+      {
+        "role": "caption",
+        "text": "Initial Testing and Performance Tracking for Accessories Category Clients"
+      },
+      {
+        "role": "page-number",
+        "text": "35"
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide33/slide33_img1.png",
+        "native_aspect_ratio": "529:273",
+        "native_aspect_decimal": 1.938,
+        "native_px": [529, 273],
+        "display_position_in": { "left": 5.333, "top": 1.424, "width": 5.504, "height": 2.845 },
+        "description": "Screenshot of a Chinese Xiaohongshu/Tmall analytics backend dashboard with tabbed navigation in red and a grid of white metric cards showing numbers such as 311,765 content views (内容曝光), 15,361, 7,200, 662, 459, store visit and GMV figures (534,180 / 509,769 / 420,214 / 24,474 yuan). It is a data-tracking interface for campaign performance.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide33/slide33_img2.png",
+        "native_aspect_ratio": "183:103",
+        "native_aspect_decimal": 1.777,
+        "native_px": [549, 309],
+        "display_position_in": { "left": 6.978, "top": 3.75, "width": 5.727, "height": 3.227 },
+        "description": "A summary slide for the Xiaohongxing (小红星) tracking tool. Left column lists bold KPIs: 320,000+ Tracking GMV, 8000+ Tracking new UV of TMALL, 4.65% UV Conversion rate of RED to Tmall, 154% Estimated ROI for KOL campaign (2024 Q11 Total). Right side shows three Xiaohongshu KOL note thumbnails (women in lifestyle/beauty poses) each with Estimated GMV, Sales Ratio and Average UV conversion-rate stats. A red 'Campaign Performance' tag sits at bottom-left.",
+        "role": "screenshot"
+      }
+    ],
+    "logical_links": "The title makes the recommendation to adopt the Xiaohongxing Tracker tool, and the three stacked headings on the left expand that recommendation into a logical sequence: what the tool measures ('enables to know'), what conditions must be met ('requires'), and the payoff by industry ('ROI varies'). The two screenshots on the right serve as proof: the first (captioned 'Tmall Tracking Backends Dashboard') shows the live analytics interface backing the 'enables to know' metrics, and the second presents real campaign KPIs and KOL examples that substantiate the ROI claims. The caption 'Initial Testing and Performance Tracking for Accessories Category Clients' frames the data as a relevant precedent for Malbon's accessories-style category. Reading flows left text-to-right evidence."
+  },
+  {
+    "slide_number": 34,
+    "slide_role": "Content",
+    "title": "Beyond key brand moments, we recommend localized campaigns for China-specific festivals, grounded in consumer insights to avoid generic global brand content.",
+    "text_hierarchy": [
+      {
+        "role": "title",
+        "text": "Beyond key brand moments, we recommend localized campaigns for China-specific festivals, grounded in consumer insights to avoid generic global brand content."
+      },
+      {
+        "role": "section-label",
+        "text": "Special Campaign strategy"
+      },
+      {
+        "role": "heading",
+        "text": "Case Study: SIGMA 2026 New Year Campaign",
+        "children": [
+          { "role": "body", "text": "Leveraging the product’s camera features and consumer behaviors around gifting and memory-capturing during the New Year, we developed three creator-led storytelling themes focused on capturing moments with self, family, and friends." },
+          {
+            "role": "callout",
+            "text": "Results",
+            "children": [
+              { "role": "kpi", "text": "167,921" },
+              { "role": "caption", "text": "Posts Views" },
+              { "role": "kpi", "text": "12,295" },
+              { "role": "caption", "text": "Post Engagements" },
+              { "role": "kpi", "text": "¥ 289,770" },
+              { "role": "caption", "text": "Total Sales GMV" }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Case Study: Missoma 2026 Qixi Valentine’s Day Campaign",
+        "children": [
+          { "role": "body", "text": "Break away from the traditional couple-only Valentine’s narrative by including maternal love, highlighting that care extends beyond partners to children. Anchored in the “holding hands” design detail, the story emphasizes support and interdependence to express the brand’s values." },
+          {
+            "role": "callout",
+            "text": "Results",
+            "children": [
+              { "role": "kpi", "text": "270,000" },
+              { "role": "caption", "text": "Posts Views" },
+              { "role": "kpi", "text": "4,349" },
+              { "role": "caption", "text": "Post Engagements" },
+              { "role": "kpi", "text": "¥ 12" },
+              { "role": "caption", "text": "CPE" }
+            ]
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide34/slide34_img1.jpg",
+        "native_aspect_ratio": "199:265",
+        "native_aspect_decimal": 0.751,
+        "native_px": [199, 265],
+        "display_position_in": { "left": 0.551, "top": 3.212, "width": 2.07, "height": 2.76 },
+        "description": "A young woman in a brown tweed jacket takes a mirror selfie holding a small compact camera up to her face, shot through a partly obstructed reflective surface. Lifestyle creator content for the SIGMA camera New Year campaign (self theme).",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide34/slide34_img2.png",
+        "native_aspect_ratio": "201:271",
+        "native_aspect_decimal": 0.742,
+        "native_px": [201, 271],
+        "display_position_in": { "left": 2.361, "top": 3.142, "width": 2.093, "height": 2.83 },
+        "description": "Two stacked frames of a family in matching red sweatshirts: a mother holds a camera to her face while a father carries a small child. Creator content illustrating the 'family' storytelling theme of the SIGMA New Year campaign.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide34/slide34_img3.png",
+        "native_aspect_ratio": "199:270",
+        "native_aspect_decimal": 0.737,
+        "native_px": [199, 270],
+        "display_position_in": { "left": 4.453, "top": 3.142, "width": 2.078, "height": 2.818 },
+        "description": "Two stacked frames: top shows a smiling woman with the word 'vlog' overlaid; bottom shows a person holding a camera to their face against a brick wall. Vlog-style creator content for the 'friends' theme of the SIGMA campaign.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide34/slide34_img4.jpg",
+        "native_aspect_ratio": "178:97",
+        "native_aspect_decimal": 1.835,
+        "native_px": [356, 194],
+        "display_position_in": { "left": 7.31, "top": 3.15, "width": 3.711, "height": 2.023 },
+        "description": "A cinematic video still of two women (mother and daughter) with overlaid title text 'IN CONVERSATION', subtitle 'A talk between mother and daughter', and 'Eunice & Luna Ft.Missoma'. Branded campaign content for the Missoma Qixi campaign.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide34/slide34_img5.jpg",
+        "native_aspect_ratio": "329:181",
+        "native_aspect_decimal": 1.818,
+        "native_px": [329, 181],
+        "display_position_in": { "left": 9.728, "top": 4.742, "width": 3.428, "height": 1.89 },
+        "description": "A video still seen from behind of an adult and a child holding hands while walking down a street, with a faint caption overlay. Illustrates the 'holding hands' / maternal-love narrative of the Missoma Qixi campaign.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide34/slide34_img6.jpg",
+        "native_aspect_ratio": "137:183",
+        "native_aspect_decimal": 0.749,
+        "native_px": [137, 183],
+        "display_position_in": { "left": 8.237, "top": 4.676, "width": 1.43, "height": 1.907 },
+        "description": "A close-up product shot of a delicate beaded/pearl necklace with a gold clasp resting on a red surface, with overlaid text 'in GOOD HANDS'. Missoma jewelry product imagery tying to the campaign's design-detail story.",
+        "role": "product-shot"
+      }
+    ],
+    "logical_links": "The title sets up the recommendation for China-specific festival campaigns grounded in consumer insight, and the slide proves it with two parallel case-study columns under the 'Special Campaign strategy' label. The left column (SIGMA 2026 New Year) ties its insight text about gifting and memory-capturing to its three creator photos representing self, family and friends themes, then closes with a Results block of three KPIs (167,921 Posts Views, 12,295 Post Engagements, ¥289,770 GMV). The right column (Missoma 2026 Qixi) mirrors this structure: its insight text about reframing Valentine's around maternal love and the 'holding hands' design detail is supported by the 'IN CONVERSATION' mother-daughter still, the hand-holding street still, and the 'in GOOD HANDS' necklace product shot, then a parallel Results block (270,000 Posts Views, 4,349 Post Engagements, ¥12 CPE). The two columns are a side-by-side comparison demonstrating the strategy works across different brands and festivals."
+  },
+  {
+    "slide_number": 35,
+    "slide_role": "Content",
+    "title": "Collaborate with innovative and individual content creators to create a Malbon community. Focus on sponsored KOL campaigns during big brand brand moments and peak sales seasons.",
+    "text_hierarchy": [
+      {
+        "role": "title",
+        "text": "Collaborate with innovative and individual content creators to create a Malbon community. Focus on sponsored KOL campaigns during big brand brand moments and peak sales seasons."
+      },
+      {
+        "role": "heading",
+        "text": "June | July | August | Sept | Oct | Nov | Dec | Jan | Feb"
+      },
+      {
+        "role": "body",
+        "text": "Major tournament period Peak golf season"
+      },
+      {
+        "role": "body",
+        "text": "Beijing Pop-up tore"
+      },
+      {
+        "role": "body",
+        "text": "Holiday Season"
+      },
+      {
+        "role": "body",
+        "text": "Holiday Season"
+      },
+      {
+        "role": "body",
+        "text": "New product launch"
+      },
+      {
+        "role": "section-label",
+        "text": "Product Seeding"
+      },
+      {
+        "role": "callout",
+        "text": "Monthly Lift campaign"
+      },
+      {
+        "role": "callout",
+        "text": "Monthly Lift campaign"
+      },
+      {
+        "role": "callout",
+        "text": "Influencer event invitations"
+      },
+      {
+        "role": "caption",
+        "text": "Seeding"
+      },
+      {
+        "role": "caption",
+        "text": "Sale Moments"
+      },
+      {
+        "role": "caption",
+        "text": "Brand Moments"
+      },
+      {
+        "role": "page-number",
+        "text": "37"
+      }
+    ],
+    "images": [],
+    "logical_links": "The title states the influencer strategy (build a Malbon community via individual creators, concentrating sponsored KOL pushes on big brand moments and peak sales seasons), and the rest of the slide is a 12-month timeline (June through February) that operationalizes it. The table's top row is the month axis and its second row plots key events (major tournament/peak golf season, Beijing pop-up store, Holiday Season x2, new product launch) against those months. Below the timeline, activity bands — 'Product Seeding' running across, plus 'Monthly Lift campaign', 'Influencer event invitations' and a second 'Monthly Lift campaign' — are positioned under the months they apply to, showing when each tactic fires. The small bottom legend labels ('Seeding', 'Sale Moments', 'Brand Moments') categorize the timeline phases, linking calendar events to the title's 'brand moments and peak sales seasons' emphasis."
+  },
+  {
+    "slide_number": 36,
+    "slide_role": "Section divider",
+    "title": "Ads Strategy",
+    "text_hierarchy": [
+      {
+        "role": "title",
+        "text": "Ads Strategy"
+      }
+    ],
+    "images": [],
+    "logical_links": "This is a section-divider slide containing only the heading 'Ads Strategy', centered on the canvas. It introduces the advertising portion of the deck that follows (slides 37-40 on targeting, always-on advertising, and offline ads), with no supporting body text or imagery."
+  },
+  {
+    "slide_number": 37,
+    "slide_role": "Content",
+    "title": "TARGETING AUDIENCE",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "ADVERTISING"
+      },
+      {
+        "role": "title",
+        "text": "TARGETING AUDIENCE"
+      },
+      {
+        "role": "subtitle",
+        "text": "From Golf Enthusiasts to Lifestyle Adopters"
+      },
+      {
+        "role": "heading",
+        "text": "Sport CommunitySocial Sport CrowdIndividuals who view sports as a way to expand their social circles, with connection and community serving as their primary motivation for participation"
+      },
+      {
+        "role": "heading",
+        "text": "Core Audience",
+        "children": [
+          { "role": "body", "text": "\"Golf with Style.\"" },
+          { "role": "body", "text": "Style TrendsetterStrong engagement with trend-driven fashion themes (sportychic， effortless style, athflow)" },
+          { "role": "body", "text": "Sports & Outdoor – Trendy Enthusiasts" },
+          { "role": "body", "text": "Trend-driven audience, with broad interests in iconic and fashion items." }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "High-Potential Audience",
+        "children": [
+          { "role": "body", "text": "\"Beyond the Fairway.\"" },
+          { "role": "body", "text": "Tourism & City Explorers" },
+          { "role": "body", "text": "Premium shopping visitors" },
+          { "role": "body", "text": "International & Business Professionals" },
+          { "role": "body", "text": "Business travel audiences" },
+          { "role": "body", "text": "Premium consumption behavior" }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide37/slide37_img1.png",
+        "native_aspect_ratio": "209:280",
+        "native_aspect_decimal": 0.746,
+        "native_px": [209, 280],
+        "display_position_in": { "left": 0.913, "top": 4.316, "width": 2.183, "height": 2.913 },
+        "description": "A crowd of casually dressed people gathered outside a dark green craftsman-style building with a 'Malbon' sign and 'Running Thru Something' text. Depicts a Malbon community / sports-social gathering, supporting the 'Sport Community' audience.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide37/slide37_img2.jpg",
+        "native_aspect_ratio": "3:4",
+        "native_aspect_decimal": 0.75,
+        "native_px": [210, 280],
+        "display_position_in": { "left": 5.232, "top": 4.316, "width": 2.184, "height": 2.913 },
+        "description": "A stylish young woman in a light blue button-up shirt and white golf cap holding a coffee cup, leaning on a white SUV in a cobblestone city setting. Represents the trend-driven, sporty-chic 'Core Audience' (Golf with Style).",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide37/slide37_img3.png",
+        "native_aspect_ratio": "3:4",
+        "native_aspect_decimal": 0.75,
+        "native_px": [210, 280],
+        "display_position_in": { "left": 9.553, "top": 4.316, "width": 2.184, "height": 2.913 },
+        "description": "A lively group selfie of four young friends laughing, eating and raising drinks indoors at a social venue. Conveys the premium, social, city-explorer lifestyle of the 'High-Potential Audience' (Beyond the Fairway).",
+        "role": "photo"
+      }
+    ],
+    "logical_links": "Under the 'ADVERTISING' section label, the title 'TARGETING AUDIENCE' and subtitle 'From Golf Enthusiasts to Lifestyle Adopters' frame an audience-segmentation slide organized in three columns that progress from existing to aspirational targets. The left column 'Sport Community' (the base) is paired with the Malbon-gathering photo of a sports-social crowd; the middle 'Core Audience' (\"Golf with Style\") describes trend-driven sporty-chic consumers, matched to the stylish woman-with-SUV photo; the right 'High-Potential Audience' (\"Beyond the Fairway\") describes tourism, city-explorer and business-travel premium consumers, matched to the upbeat group-selfie photo. Each text column sits above its corresponding lifestyle image, and the left-to-right order mirrors the subtitle's funnel from core golf enthusiasts toward broader lifestyle adopters."
+  },
+  {
+    "slide_number": 38,
+    "slide_role": "Content",
+    "title": "Continuously reach precise targeting group  through an always-on strategy, converting new audience to Malbon community",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "ADVERTISING-Always-on"
+      },
+      {
+        "role": "title",
+        "text": "Continuously reach precise targeting group  through an always-on strategy, converting new audience to Malbon community"
+      },
+      {
+        "role": "heading",
+        "text": "In-Feeds"
+      },
+      {
+        "role": "body",
+        "text": "Expand the reach via precise targeting"
+      },
+      {
+        "role": "body",
+        "text": "Build brand audiences and drive new engagement through different content theme"
+      },
+      {
+        "role": "callout",
+        "text": "Interests"
+      },
+      {
+        "role": "callout",
+        "text": "Engagement"
+      },
+      {
+        "role": "callout",
+        "text": "Search"
+      },
+      {
+        "role": "callout",
+        "text": "Brand Explore"
+      },
+      {
+        "role": "callout",
+        "text": "Re-Targeting"
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide38/slide38_img1.png",
+        "native_aspect_ratio": "1:1",
+        "native_aspect_decimal": 1.0,
+        "native_px": [56, 56],
+        "display_position_in": { "left": 3.736, "top": 1.789, "width": 0.58, "height": 0.58 },
+        "description": "A small orange line-art eye icon, used as a decorative/section icon next to the 'In-Feeds' label.",
+        "role": "icon"
+      },
+      {
+        "file": "images/slide38/slide38_img2.jpg",
+        "native_aspect_ratio": "155:337",
+        "native_aspect_decimal": 0.46,
+        "native_px": [155, 337],
+        "display_position_in": { "left": 1.087, "top": 2.588, "width": 1.613, "height": 3.506 },
+        "description": "A Xiaohongshu (RED) mobile app 'Discover' feed screenshot (Beijing, 17:43) showing a grid of lifestyle/luxury notes including a Louis Vuitton 'Color Blossom' card and a watch post, illustrating an in-feed ad placement.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide38/slide38_img3.jpg",
+        "native_aspect_ratio": "77:167",
+        "native_aspect_decimal": 0.461,
+        "native_px": [154, 334],
+        "display_position_in": { "left": 3.255, "top": 3.8, "width": 1.6, "height": 3.479 },
+        "description": "Another Xiaohongshu (RED) 'Discover' feed mobile screenshot (17:45) showing a grid of notes (events, sunset hands, fireworks, fruit) as native in-feed content among which ads appear.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide38/slide38_img4.png",
+        "native_aspect_ratio": "221:296",
+        "native_aspect_decimal": 0.747,
+        "native_px": [221, 296],
+        "display_position_in": { "left": 10.27, "top": 3.942, "width": 2.309, "height": 3.079 },
+        "description": "A lifestyle fashion photo of a woman in a sage-green knit vest over a collared shirt and pleated skirt standing by white columns, with a second figure behind. Preppy golf-adjacent brand content for audience building.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide38/slide38_img5.png",
+        "native_aspect_ratio": "221:296",
+        "native_aspect_decimal": 0.747,
+        "native_px": [221, 296],
+        "display_position_in": { "left": 7.744, "top": 2.377, "width": 2.309, "height": 3.079 },
+        "description": "A photo seen from behind of a person in a maroon graphic golf tee standing on the back of a golf cart on a course, reaching for a club. On-course Malbon lifestyle/brand content used to drive new engagement.",
+        "role": "photo"
+      }
+    ],
+    "logical_links": "Under the 'ADVERTISING-Always-on' label, the large title states the goal: continuously reach precise targets via an always-on strategy and convert new audiences into the Malbon community. The slide reads left-to-right as a flow. On the left, the 'In-Feeds' heading (with its eye icon) and the two RED 'Discover' feed screenshots, captioned 'Expand the reach via precise targeting', show the native in-feed ad surface. The center vertical stack of five rounded labels — Interests, Engagement, Search, Brand Explore, Re-Targeting — enumerates the targeting/funnel levers of the always-on approach. On the right, the supporting note 'Build brand audiences and drive new engagement through different content theme' is illustrated by the two lifestyle/on-course brand photos, showing the varied content themes that feed audience building. Thus targeting mechanics (center) connect the ad placement (left) to brand-content engagement outcomes (right)."
+  },
+  {
+    "slide_number": 39,
+    "slide_role": "Content",
+    "title": "Scenario-driven styling content via paid media is highly efficient",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "ADVERTISING-Always-on"
+      },
+      {
+        "role": "title",
+        "text": "Scenario-driven styling content via paid media is highly efficient"
+      },
+      {
+        "role": "heading",
+        "text": "Case Study： Sporty & Rich",
+        "children": [
+          { "role": "body", "text": "Cost per follower: 400% efficient than industry average" },
+          { "role": "body", "text": "1,000+ new followers in 7 days" },
+          { "role": "body", "text": "Themes like “American Preppy Style(美式学院风)” and “Ridding Outfits(骑士穿搭)” are highly compatible with the brand’s image and result in strong fan conversion rates" }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide39/slide39_img1.jpg",
+        "native_aspect_ratio": "92:123",
+        "native_aspect_decimal": 0.748,
+        "native_px": [276, 369],
+        "display_position_in": { "left": 9.68, "top": 2.49, "width": 2.88, "height": 3.835 },
+        "description": "A Sporty & Rich campaign image of a woman in a cap, crest-logo tee, jeans and tall riding boots seated on an equestrian saddle, with the white 'Sporty & Rich' wordmark overlaid. Equestrian/'riding outfits' styling scenario.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide39/slide39_img2.jpg",
+        "native_aspect_ratio": "276:367",
+        "native_aspect_decimal": 0.752,
+        "native_px": [276, 367],
+        "display_position_in": { "left": 6.536, "top": 1.126, "width": 2.869, "height": 3.826 },
+        "description": "A Sporty & Rich campaign image of a woman in a navy crest-embroidered tracksuit and cap walking down stone steps, with the white 'Sporty & Rich' wordmark overlaid. Collegiate/American-preppy styling scenario.",
+        "role": "photo"
+      }
+    ],
+    "logical_links": "Under the 'ADVERTISING-Always-on' label, the title asserts the principle that scenario-driven styling content delivered through paid media is highly efficient. The Sporty & Rich case study on the left provides the evidence with three proof points (cost per follower 400% more efficient than industry average, 1,000+ new followers in 7 days, and themes like 'American Preppy Style' and 'Riding Outfits' aligning with brand image for strong fan conversion). The two Sporty & Rich campaign photos on the right visualize exactly those named styling scenarios — the saddle/riding-boots shot for 'Riding Outfits' and the collegiate tracksuit-on-steps shot for 'American Preppy Style' — directly demonstrating the scenario-driven content that produced the cited efficiency results."
+  },
+  {
+    "slide_number": 40,
+    "slide_role": "Content",
+    "title": "Key campaigns can leverage Moments ads and brand banners to drive rapid awareness at scale while reinforcing the brand’s core identity",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "ADVERTISING-Offline"
+      },
+      {
+        "role": "title",
+        "text": "Key campaigns can leverage Moments ads and brand banners to drive rapid awareness at scale while reinforcing the brand’s core identity"
+      },
+      {
+        "role": "heading",
+        "text": "WeChat Moment Promotion",
+        "children": [
+          { "role": "body", "text": "Pricing Model: oCPC" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "RED Brand Search Banner",
+        "children": [
+          { "role": "body", "text": "Pricing Model: Based on search volume" },
+          { "role": "body", "text": "Billing Cycle: Monthly" },
+          { "role": "body", "text": "Minimum Term: 3 months" }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide40/slide40_img1.jpg",
+        "native_aspect_ratio": "109:107",
+        "native_aspect_decimal": 1.019,
+        "native_px": [218, 214],
+        "display_position_in": { "left": 1.086, "top": 2.923, "width": 2.274, "height": 2.229 },
+        "description": "A WeChat Moments ad card preview: a soft product/lifestyle image with Chinese ad copy, a 'Mini Programs' link with green '立即预约' (book now) button and the advertiser line '北京市 · Wilson威尔胜'. Example of a WeChat Moment promotion.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide40/slide40_img2.png",
+        "native_aspect_ratio": "219:430",
+        "native_aspect_decimal": 0.509,
+        "native_px": [219, 430],
+        "display_position_in": { "left": 3.428, "top": 1.943, "width": 2.274, "height": 4.486 },
+        "description": "A Wilson brand mini-program / landing page mobile screenshot showing '限时活动' (limited-time activity) banners, pop-up store links and product imagery in a warm tan color scheme. Shows the WeChat brand destination after the Moments ad.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide40/slide40_img3.png",
+        "native_aspect_ratio": "179:383",
+        "native_aspect_decimal": 0.467,
+        "native_px": [179, 383],
+        "display_position_in": { "left": 8.133, "top": 2.264, "width": 1.868, "height": 3.984 },
+        "description": "A Xiaohongshu (RED) search-results mobile screenshot for 'wilson' showing the Wilson 威尔胜 brand zone banner at top (with follow button and stats) over a grid of tennis/lifestyle notes. Example of a RED brand search banner placement.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide40/slide40_img4.png",
+        "native_aspect_ratio": "1:1",
+        "native_aspect_decimal": 1.0,
+        "native_px": [49, 49],
+        "display_position_in": { "left": 1.229, "top": 2.264, "width": 0.506, "height": 0.506 },
+        "description": "The green WeChat (Weixin) app logo icon, marking the WeChat Moment Promotion section.",
+        "role": "logo"
+      },
+      {
+        "file": "images/slide40/slide40_img5.png",
+        "native_aspect_ratio": "1:1",
+        "native_aspect_decimal": 1.0,
+        "native_px": [49, 49],
+        "display_position_in": { "left": 7.395, "top": 2.264, "width": 0.506, "height": 0.506 },
+        "description": "The red Xiaohongshu (小红书 / RED) app logo icon, marking the RED Brand Search Banner section.",
+        "role": "logo"
+      }
+    ],
+    "logical_links": "Under the 'ADVERTISING-Offline' label, the title proposes using Moments ads and brand banners for key campaigns to drive rapid awareness while reinforcing brand identity. The slide splits into two platform examples, each marked by its app logo. The left half (green WeChat logo) is 'WeChat Moment Promotion', illustrated by a Moments ad-card screenshot and the resulting Wilson brand mini-program landing page, with pricing note 'oCPC' captioned below. The right half (red RED logo) is 'RED Brand Search Banner', illustrated by a Wilson RED search-results screenshot showing the brand-zone banner, with media terms below (priced on search volume, billed monthly, 3-month minimum). Together the two columns concretely operationalize the title's 'Moments ads and brand banners' via real Wilson examples, with the pricing/term footnotes giving the commercial buying details."
+  }
+]

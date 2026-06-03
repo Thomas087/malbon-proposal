@@ -1,0 +1,401 @@
+[
+  {
+    "slide_number": 41,
+    "slide_role": "Section divider",
+    "title": "Case study",
+    "text_hierarchy": [
+      { "role": "title", "text": "Case study" }
+    ],
+    "images": [],
+    "logical_links": "This is a minimal section-divider slide containing only the heading 'Case study' centered on an otherwise empty canvas. It introduces the case-study block of the deck (slides 42-49), signalling a transition from strategy/proposal content to proof-of-work examples. There are no supporting images or body text; the single large heading is the entire payload, setting the reading context for the slides that follow."
+  },
+  {
+    "slide_number": 42,
+    "slide_role": "Content",
+    "title": "Hunter Boots",
+    "text_hierarchy": [
+      { "role": "heading", "text": "Hunter Boots", "children": [
+        { "role": "body", "text": "We operate social media account for an iconic UK fashion brand. We operated the brand more more than 2 years and help Hunter to achieve sales growth of over 30%." }
+      ]},
+      { "role": "kpi", "text": "No. 2 top performing brand", "children": [
+        { "role": "caption", "text": "During the 6.18 Little Red Book campaign working with 40 +  influencers and over 7 million impression" }
+      ]},
+      { "role": "kpi", "text": "5+ Top tier celebrities ", "children": [
+        { "role": "caption", "text": "Wear the product via gifting " }
+      ]},
+      { "role": "kpi", "text": "20,000+ USD", "children": [
+        { "role": "caption", "text": "Worth of free promotion received from KOL on Little Red Book  by gifting 4k USD products per month " }
+      ]},
+      { "role": "kpi", "text": "3+ Million", "children": [
+        { "role": "caption", "text": "Free impression on WeChat and Weibo via product gifting   " }
+      ]},
+      { "role": "page-number", "text": "44" }
+    ],
+    "images": [
+      {
+        "file": "images/slide42/slide42_img1.png",
+        "native_aspect_ratio": "12:5",
+        "native_aspect_decimal": 2.4,
+        "native_px": [156, 65],
+        "display_position_in": { "left": 10.549, "top": 0.737, "width": 1.624, "height": 0.674 },
+        "description": "The HUNTER wordmark logo: black bold letters on a cream background, framed by a red border.",
+        "role": "logo"
+      },
+      {
+        "file": "images/slide42/slide42_img2.png",
+        "native_aspect_ratio": "34:45",
+        "native_aspect_decimal": 0.756,
+        "native_px": [272, 360],
+        "display_position_in": { "left": 2.791, "top": 0.5, "width": 2.825, "height": 3.733 },
+        "description": "A young woman sitting outdoors on grass against a blue sky, wearing tall red Hunter rubber boots, posing with a hand to her head; an influencer-style lifestyle product shot.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide42/slide42_img3.png",
+        "native_aspect_ratio": "173:337",
+        "native_aspect_decimal": 0.513,
+        "native_px": [173, 337],
+        "display_position_in": { "left": 0.789, "top": 0.636, "width": 1.809, "height": 3.516 },
+        "description": "A Xiaohongshu (Little Red Book) post screenshot by user '易梦玲' captioned 'ootd | 最近喜欢蓝色', showing a woman in blue Hunter boots relaxing in a hammock by a lake; the post shows 5.1万 likes, 4862 saves and 960 comments.",
+        "role": "screenshot"
+      }
+    ],
+    "logical_links": "The slide is a case study proving WalktheChat's social-media operating capability for Hunter Boots. The 'Hunter Boots' heading and its body paragraph (2+ years operating the account, 30%+ sales growth) establish the engagement, reinforced by the Hunter logo top-right. Beneath, a four-column KPI band quantifies results: No. 2 top performing brand in a 6.18 RED campaign (40+ influencers, 7M impressions), 5+ top-tier celebrities via gifting, 20,000+ USD of earned promotion, and 3+ million free impressions. The two photos on the left visually substantiate the influencer/KOL gifting tactic referenced in the KPIs - a lifestyle shot of red boots and an actual RED post with concrete engagement numbers, linking the claimed earned media to real social proof. Reading flow goes left photos -> heading/body upper right, then top-to-bottom into the KPI row."
+  },
+  {
+    "slide_number": 43,
+    "slide_role": "Content",
+    "title": "Dirk Nowitzki X Bauerfeind",
+    "text_hierarchy": [
+      { "role": "heading", "text": "Dirk Nowitzki X Bauerfeind ", "children": [
+        { "role": "subtitle", "text": "Beijing visit campaign " }
+      ]},
+      { "role": "body", "text": "1 paid WeChat KOL, 7 un-paid* WeChat KOLs, 30 un-paid* Weibo KOLs*" },
+      { "role": "body", "text": "3 million impression on WeChat & Weibo " },
+      { "role": "body", "text": "4,000 comments " },
+      { "role": "body", "text": "3 WeChat groups with high engagement " },
+      { "role": "body", "text": "3,000 lucky draw participants " },
+      { "role": "body", "text": "3,000 WeChat Official Account followers " },
+      { "role": "caption", "text": "Live- streaming " },
+      { "role": "caption", "text": "Lucky-draw winner meet with Dirk" },
+      { "role": "caption", "text": "Basketball KOL interview " },
+      { "role": "caption", "text": "Signature on posters for lucky draw winners " },
+      { "role": "footnote", "text": "* Un-paid KOL receive around 1000RMB worth of Bauerfeind product and 4 KOLs also has the chance to meet with Dirk " }
+    ],
+    "images": [
+      {
+        "file": "images/slide43/slide43_img1.jpg",
+        "native_aspect_ratio": "16:9",
+        "native_aspect_decimal": 1.778,
+        "native_px": [1024, 576],
+        "display_position_in": { "left": 0.015, "top": 0.03, "width": 13.33, "height": 7.498 },
+        "description": "Full-bleed key visual of basketball player Dirk Nowitzki standing with arms outstretched, holding a Spalding basketball and wearing a Bauerfeind arm sleeve, against a dark grey studio gradient with the white Bauerfeind logo.",
+        "role": "background"
+      },
+      {
+        "file": "images/slide43/slide43_img2.jpg",
+        "native_aspect_ratio": "1024:557",
+        "native_aspect_decimal": 1.838,
+        "native_px": [1024, 557],
+        "display_position_in": { "left": 0.003, "top": 0.786, "width": 13.33, "height": 7.247 },
+        "description": "Near-identical key visual of Dirk Nowitzki with arms outstretched holding a basketball and wearing a Bauerfeind arm sleeve, Bauerfeind logo at bottom; layered as a second background image.",
+        "role": "background"
+      },
+      {
+        "file": "images/slide43/slide43_img3.png",
+        "native_aspect_ratio": "29:52",
+        "native_aspect_decimal": 0.558,
+        "native_px": [145, 260],
+        "display_position_in": { "left": 3.675, "top": 0.306, "width": 1.518, "height": 2.705 },
+        "description": "Mobile livestream screenshot showing Dirk Nowitzki standing beside a fan, both wearing Dallas Mavericks #41 jerseys, in a Bauerfeind-branded backdrop room (lucky-draw winner meeting Dirk).",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide43/slide43_img4.png",
+        "native_aspect_ratio": "73:130",
+        "native_aspect_decimal": 0.562,
+        "native_px": [146, 260],
+        "display_position_in": { "left": 8.002, "top": 0.389, "width": 1.522, "height": 2.705 },
+        "description": "Mobile livestream screenshot of Dirk Nowitzki seated at a table being interviewed by a man, in a Bauerfeind-branded room (basketball KOL interview).",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide43/slide43_img5.png",
+        "native_aspect_ratio": "296:147",
+        "native_aspect_decimal": 2.014,
+        "native_px": [296, 147],
+        "display_position_in": { "left": 9.994, "top": 0.786, "width": 3.071, "height": 1.53 },
+        "description": "Bauerfeind-branded image of a man signing a row of life-size cardboard standees, with Chinese caption '德克签名人形立牌' (Dirk-signed life-size standees).",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide43/slide43_img6.jpg",
+        "native_aspect_ratio": "15:26",
+        "native_aspect_decimal": 0.577,
+        "native_px": [150, 260],
+        "display_position_in": { "left": 0.615, "top": 0.306, "width": 1.562, "height": 2.705 },
+        "description": "Mobile livestream screenshot of Dirk Nowitzki standing at a table presenting on stage in a Bauerfeind-branded room, with live chat overlays and gift animations (the live-streaming event).",
+        "role": "screenshot"
+      }
+    ],
+    "logical_links": "This case study showcases a celebrity-athlete campaign: Dirk Nowitzki x Bauerfeind during his Beijing visit. The full-bleed athlete key visual forms the backdrop, immediately tying the slide to the Bauerfeind brand and its NBA ambassador. Across the top sits a row of four mobile screenshots, each labelled by a bold caption directly above/below it - 'Live-streaming', 'Lucky-draw winner meet with Dirk', 'Basketball KOL interview' and 'Signature on posters for lucky draw winners' - so each image documents one concrete campaign activity. The lower-left text block lists the campaign's quantified results (1 paid + 37 un-paid KOLs, 3M impressions, 4,000 comments, 3,000 lucky-draw participants and new followers), and the bottom-right footnote clarifies the 'un-paid' KOL model (gifted ~1000RMB product, 4 got to meet Dirk). Logic flows: athlete visual establishes the asset -> screenshots prove the activations -> results block and footnote explain the cost-efficient KOL mechanism that produced them."
+  },
+  {
+    "slide_number": 44,
+    "slide_role": "Content",
+    "title": "HEYTEA AI Collaboration Video: Boosting Engagement and Likes",
+    "text_hierarchy": [
+      { "role": "title", "text": "HEYTEA AI Collaboration Video: Boosting Engagement and Likes" },
+      { "role": "caption", "text": "HEYTEA CGI Hybrid video", "children": [
+        { "role": "callout", "text": "Click to Watch" }
+      ]},
+      { "role": "caption", "text": "UNIKKO 60th ", "children": [
+        { "role": "caption", "text": "Anniversary" },
+        { "role": "callout", "text": "Click to Watch" }
+      ]},
+      { "role": "kpi", "text": "329%", "children": [
+        { "role": "caption", "text": "Engagement" }
+      ]},
+      { "role": "kpi", "text": "Red", "children": [
+        { "role": "caption", "text": "10K+ Likes Video" }
+      ]},
+      { "role": "kpi", "text": " +7000", "children": [
+        { "role": "caption", "text": "InstagramLikes" }
+      ]}
+    ],
+    "images": [
+      {
+        "file": "images/slide44/slide44_img1.jpg",
+        "native_aspect_ratio": "640:853",
+        "native_aspect_decimal": 0.75,
+        "native_px": [1280, 1706],
+        "display_position_in": { "left": -0.171, "top": -4.946, "width": 13.501, "height": 17.994 },
+        "description": "HEYTEA x Marimekko campaign product shot: two HEYTEA paper cups (one green, one white) printed with a stylised Unikko-flower figure drinking tea, set on a beige backdrop surrounded by white gardenia flowers and moss, with 'HEYTEA marimekko' lockup and a Xiaohongshu watermark (小红书号: 2683130197).",
+        "role": "background"
+      },
+      {
+        "file": "images/slide44/slide44_img2.png",
+        "native_aspect_ratio": "53:100",
+        "native_aspect_decimal": 0.53,
+        "native_px": [477, 900],
+        "display_position_in": { "left": 8.023, "top": 0.127, "width": 4.967, "height": 9.374 },
+        "description": "An empty white smartphone mockup frame (iPhone-style with notch), used as a placeholder/embed for a video.",
+        "role": "decorative"
+      },
+      {
+        "file": "images/slide44/slide44_img3.png",
+        "native_aspect_ratio": "190:359",
+        "native_aspect_decimal": 0.529,
+        "native_px": [380, 718],
+        "display_position_in": { "left": -0.094, "top": 1.718, "width": 3.962, "height": 7.476 },
+        "description": "An empty white smartphone mockup frame (iPhone-style with notch), used as a placeholder/embed for a video.",
+        "role": "decorative"
+      }
+    ],
+    "logical_links": "The slide demonstrates an AI-driven content production case for HEYTEA's Marimekko (Unikko) collaboration, with the title framing the outcome: AI collaboration video boosting engagement and likes. The campaign product key visual fills the background to establish the HEYTEA x Marimekko context, while two phone mockup frames act as embedded-video players: the left phone is labelled 'HEYTEA CGI Hybrid video / Click to Watch' and the right phone 'UNIKKO 60th Anniversary / Click to Watch'. Floating KPI badges quantify each video's performance - '329% Engagement', 'Red 10K+ Likes Video' and '+7000 Instagram Likes' - positioned near the phones they describe, so each clickable video is paired with its result metric. Reading flow: title claim -> two playable videos in phone frames -> KPI badges that prove the engagement uplift."
+  },
+  {
+    "slide_number": 45,
+    "slide_role": "Content",
+    "title": "Marimekko Unikko 60 Years Events in Shanghai",
+    "text_hierarchy": [
+      { "role": "section-label", "text": "CASE STUDY" },
+      { "role": "title", "text": "Marimekko Unikko 60 Years Events in Shanghai " },
+      { "role": "kpi", "text": "2,700,000+", "children": [ { "role": "caption", "text": "Impression" } ]},
+      { "role": "kpi", "text": "13,000+", "children": [ { "role": "caption", "text": "Engagements" } ]},
+      { "role": "kpi", "text": "400+", "children": [
+        { "role": "caption", "text": "UGCs & Photo Comments" },
+        { "role": "caption", "text": "of organic posts and under comment bar" }
+      ]},
+      { "role": "callout", "text": "First", "children": [
+        { "role": "body", "text": "Local-produced Digital Creation" },
+        { "role": "body", "text": "Utilizing AI, CG and shooting" }
+      ]},
+      { "role": "callout", "text": "First", "children": [
+        { "role": "body", "text": "Trunk Show Livestream on RED" }
+      ]}
+    ],
+    "images": [
+      {
+        "file": "images/slide45/slide45_img1.jpg",
+        "native_aspect_ratio": "332:221",
+        "native_aspect_decimal": 1.502,
+        "native_px": [332, 221],
+        "display_position_in": { "left": 0.771, "top": 1.49, "width": 3.463, "height": 2.309 },
+        "description": "An outdoor fashion runway/showcase on the colourful painted steps of the IAPM mall in Shanghai, with many models posed wearing vibrant Marimekko Unikko-print garments.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide45/slide45_img2.jpg",
+        "native_aspect_ratio": "259:172",
+        "native_aspect_decimal": 1.506,
+        "native_px": [259, 172],
+        "display_position_in": { "left": 4.375, "top": 1.756, "width": 2.694, "height": 1.796 },
+        "description": "A bright pink Marimekko pop-up interior with large Unikko poppy-print artworks on the wall, a white tulip table with red-and-white cups, and an Unikko-print floor; a styled event/experience space.",
+        "role": "photo"
+      }
+    ],
+    "logical_links": "A RED-style case study for Marimekko's Unikko 60th anniversary events in Shanghai, headed by the 'CASE STUDY' label and bold title. The two left photos show the physical activations - a Unikko-print runway on the IAPM mall steps and a colourful pink pop-up interior - giving visual evidence of the on-the-ground events. On the right, the upper KPI table quantifies digital results (2,700,000+ impressions, 13,000+ engagements, 400+ UGCs & photo comments), while the lower 'First' table highlights two innovation milestones: first local-produced digital creation using AI/CG/shooting, and first Trunk Show livestream on RED. The flow connects the offline events (photos) to their online amplification metrics (top-right) and to the firsts that made the campaign distinctive (bottom-right)."
+  },
+  {
+    "slide_number": 46,
+    "slide_role": "Content",
+    "title": "Marimekko 10-year in China Exhibition in Beijing",
+    "text_hierarchy": [
+      { "role": "section-label", "text": "CASE STUDY" },
+      { "role": "title", "text": "Marimekko 10-year in China Exhibition in Beijing" },
+      { "role": "kpi", "text": "3,000,000+", "children": [ { "role": "caption", "text": "Impression" } ]},
+      { "role": "kpi", "text": "10,600+", "children": [ { "role": "caption", "text": "Engagements" } ]},
+      { "role": "kpi", "text": "40+", "children": [
+        { "role": "caption", "text": "KOLs Invited" },
+        { "role": "caption", "text": "for the grand opening" }
+      ]},
+      { "role": "kpi", "text": "4,200+", "children": [
+        { "role": "caption", "text": "Participants" },
+        { "role": "caption", "text": "within 14 days" }
+      ]},
+      { "role": "kpi", "text": "250+", "children": [
+        { "role": "caption", "text": "UGCs" },
+        { "role": "caption", "text": "on RED " }
+      ]}
+    ],
+    "images": [],
+    "logical_links": "A companion case-study slide to slide 45, this one covering Marimekko's 10-year-in-China exhibition in Beijing. The 'CASE STUDY' label and bold title sit at the top left, and the entire right side is a single KPI table stacking five results pairs: 3,000,000+ impressions, 10,600+ engagements, 40+ KOLs invited for the grand opening, 4,200+ participants within 14 days, and 250+ UGCs on RED. With no images, the slide relies purely on the metric ladder to demonstrate the scale and reach of the exhibition, each big number reinforced by a small descriptive caption beneath it."
+  },
+  {
+    "slide_number": 47,
+    "slide_role": "Content",
+    "title": "AGATHA : Planned and executed the brand’s 50th anniversary exhibition, supporting a successful brand image upgrade.",
+    "text_hierarchy": [
+      { "role": "title", "text": "AGATHA : Planned and executed the brand’s 50th anniversary exhibition, supporting a successful brand image upgrade." },
+      { "role": "subtitle", "text": "Case study: AGATHA" },
+      { "role": "heading", "text": "Context", "children": [
+        { "role": "body", "text": "Assisted the brand in elevating core consumer age group and spending power through a successful brand image upgrade." },
+        { "role": "body", "text": "Integrated online and offline campaigns to boost brand visibility and reinforce brand positioning." },
+        { "role": "body", "text": "Supported the brand in enhancing the full-funnel strategy from exposure to conversion during the campaign period." }
+      ]},
+      { "role": "heading", "text": "Results", "children": [
+        { "role": "kpi", "text": "3,500", "children": [ { "role": "caption", "text": "fans on AGATHA’s brand account within 1 month" } ]},
+        { "role": "kpi", "text": "103%+", "children": [ { "role": "caption", "text": "engagement growth compared to last month" } ]},
+        { "role": "kpi", "text": "60+", "children": [ { "role": "caption", "text": "KOL posts for campaign" } ]}
+      ]},
+      { "role": "caption", "text": "50th Anniversary Campaign Engagement: 54K" }
+    ],
+    "images": [
+      {
+        "file": "images/slide47/slide47_img1.jpg",
+        "native_aspect_ratio": "541:719",
+        "native_aspect_decimal": 0.752,
+        "native_px": [541, 719],
+        "display_position_in": { "left": 7.721, "top": 0.0, "width": 5.627, "height": 7.5 },
+        "description": "A full-height fashion editorial photo of an Asian woman in a black wide-brim hat and deep-V denim outfit, wearing layered gold AGATHA coin necklaces and gold earrings, looking up in a lush green garden; the 'AGATHA' logotype is overlaid in white.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide47/slide47_img2.jpg",
+        "native_aspect_ratio": "193:109",
+        "native_aspect_decimal": 1.771,
+        "native_px": [193, 109],
+        "display_position_in": { "left": 2.694, "top": 6.37, "width": 2.009, "height": 1.13 },
+        "description": "The AGATHA PARIS wordmark logo in black on a white background.",
+        "role": "logo"
+      }
+    ],
+    "logical_links": "This case study presents WalktheChat's work on AGATHA's 50th-anniversary exhibition and brand-image upgrade. The bold title states the engagement and outcome, with 'Case study: AGATHA' as a subtitle beneath it. The left column is structured into two labelled sections: 'Context' (three bullets on elevating the consumer age group/spending power, integrating online+offline campaigns, and enhancing the full-funnel strategy) and 'Results' (a paired list of 3,500 new fans in one month, 103%+ engagement growth, and 60+ KOL posts), with the AGATHA Paris logo anchoring the lower left. The full-height editorial photo on the right carries the brand's aspirational image upgrade visually, and the caption '50th Anniversary Campaign Engagement: 54K' at its base ties the hero visual back to a headline campaign metric. Flow: title/subtitle -> Context rationale -> Results metrics, with the right-hand image and its 54K caption providing the visual proof of the upgraded brand image."
+  },
+  {
+    "slide_number": 48,
+    "slide_role": "Content",
+    "title": "AGATHA 50 Year Events: In partnership for the 50th anniversary, we provided the campaign’s creative theme, completed the online planning and execution, and supported the offline creative concept.",
+    "text_hierarchy": [
+      { "role": "title", "text": "AGATHA 50 Year Events: In partnership for the 50th anniversary, we provided the campaign’s creative theme, completed the online planning and execution, and supported the offline creative concept." },
+      { "role": "kpi", "text": "20+", "children": [
+        { "role": "caption", "text": "Social Posts" },
+        { "role": "caption", "text": "on WeChat Channel, RED account" }
+      ]},
+      { "role": "kpi", "text": "First", "children": [
+        { "role": "caption", "text": "Offline Brand Exhibition in China" },
+        { "role": "caption", "text": "Supported by the French Trade and Investment Agency" }
+      ]},
+      { "role": "kpi", "text": "100+", "children": [
+        { "role": "caption", "text": "Key guests from the fashion industry attended" }
+      ]},
+      { "role": "kpi", "text": "Multiple", "children": [
+        { "role": "caption", "text": "Design Materials" }
+      ]},
+      { "role": "kpi", "text": "740+", "children": [
+        { "role": "caption", "text": "Photo Asset" }
+      ]},
+      { "role": "kpi", "text": "2", "children": [
+        { "role": "caption", "text": "Video Asset" },
+        { "role": "caption", "text": "including event recap and brand pronunciation showcase" }
+      ]},
+      { "role": "footnote", "text": "AGATHA" },
+      { "role": "footnote", "text": "1. Event Overview" }
+    ],
+    "images": [
+      {
+        "file": "images/slide48/slide48_img1.jpg",
+        "native_aspect_ratio": "347:232",
+        "native_aspect_decimal": 1.496,
+        "native_px": [347, 232],
+        "display_position_in": { "left": 0.584, "top": 1.441, "width": 3.616, "height": 2.41 },
+        "description": "Exterior of a white colonial-style villa entrance hosting the AGATHA event, with an AGATHA Paris pillar sign and blue floral decorations; a logo of the French trade agency appears at the bottom.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide48/slide48_img2.jpg",
+        "native_aspect_ratio": "349:233",
+        "native_aspect_decimal": 1.498,
+        "native_px": [349, 233],
+        "display_position_in": { "left": 4.356, "top": 4.038, "width": 3.639, "height": 2.426 },
+        "description": "Interior exhibition scene: a woman in a navy jumpsuit gestures beside a large outline of AGATHA's Scottie-dog mascot, in front of a wall collage with 'AGATHA PARIS' and 'DEPUIS 1974' graphics.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide48/slide48_img3.jpg",
+        "native_aspect_ratio": "3:2",
+        "native_aspect_decimal": 1.5,
+        "native_px": [348, 232],
+        "display_position_in": { "left": 0.58, "top": 4.053, "width": 3.619, "height": 2.41 },
+        "description": "A large blue-and-white draped fabric art installation/sculpture displayed in the villa's exhibition hall, with an AGATHA exhibition poster on the left wall.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide48/slide48_img4.jpg",
+        "native_aspect_ratio": "349:233",
+        "native_aspect_decimal": 1.498,
+        "native_px": [349, 233],
+        "display_position_in": { "left": 4.357, "top": 1.441, "width": 3.639, "height": 2.426 },
+        "description": "A group of seven well-dressed guests raising champagne glasses for a toast in front of a white decorative tree at the AGATHA anniversary event.",
+        "role": "photo"
+      }
+    ],
+    "logical_links": "A continuation of the AGATHA 50th-anniversary case study, this slide details WalktheChat's scope (creative theme, online planning/execution, offline creative-concept support) in the title across the top. A 2x2 grid of event photos on the left fills the slide with visual proof of the offline exhibition - the villa entrance, the Scottie-dog mascot wall, a draped fabric art installation, and a champagne toast among industry guests - illustrating the staged brand experience. The right-hand KPI table quantifies deliverables and reach: 20+ social posts on WeChat Channel and RED, the First offline brand exhibition in China (backed by the French Trade and Investment Agency), 100+ fashion-industry guests, multiple design materials, 740+ photo assets and 2 video assets. The photos in the grid directly correspond to the table's claims (e.g., the guest toast supports '100+ key guests'; the venue/installation shots support the 'First offline exhibition'). Tiny footer labels 'AGATHA' and '1. Event Overview' mark this as the first section of the AGATHA event recap."
+  },
+  {
+    "slide_number": 49,
+    "slide_role": "Content",
+    "title": "DANIEL ARSHAM",
+    "text_hierarchy": [
+      { "role": "title", "text": "DANIEL ARSHAM" },
+      { "role": "heading", "text": "We build an E-commerce infrastructure supporting a famous artist with flash-sales campaigns " },
+      { "role": "body", "text": "Flash-sales campaign was sold out within 1 hour" },
+      { "role": "body", "text": "Filtered robots from marketing purchase" },
+      { "role": "body", "text": "Handled a huge amount of consecutive request " },
+      { "role": "body", "text": "Support with customer service for refunds" }
+    ],
+    "images": [
+      {
+        "file": "images/slide49/slide49_img1.jpg",
+        "native_aspect_ratio": "1277:852",
+        "native_aspect_decimal": 1.499,
+        "native_px": [1277, 852],
+        "display_position_in": { "left": 0.002, "top": 0.002, "width": 13.326, "height": 8.884 },
+        "description": "Full-bleed portrait of artist Daniel Arsham in a white coat, dark cap and round glasses, standing behind a white plinth that holds one of his eroded/relic-style sculptures, against a sculptural white wavy topographic wall.",
+        "role": "background"
+      }
+    ],
+    "logical_links": "This case study highlights WalktheChat's e-commerce/technical infrastructure work for the artist Daniel Arsham. His full-bleed studio portrait serves as the slide background and brand context, with the 'DANIEL ARSHAM' title overlaid top-left. The left-side text column explains the engagement - building an e-commerce infrastructure to support flash-sales campaigns - and then lists four concrete capabilities/outcomes as body lines: sold out within 1 hour, bot filtering, handling massive consecutive traffic, and refund customer service. The logic moves from who (Arsham portrait + name) to what (the heading) to proof points (the bulleted technical achievements), positioning WalktheChat as able to handle high-pressure, high-traffic drops for a premium artist collaboration."
+  }
+]

@@ -1,0 +1,367 @@
+[
+  {
+    "slide_number": 9,
+    "slide_role": "Content",
+    "title": "「城市果岭 风格无界」Turns golf-rooted identity into a lifestyle community.",
+    "text_hierarchy": [
+      { "role": "section-label", "text": "MALBON CHINA" },
+      { "role": "title", "text": "「城市果岭 风格无界」Turns golf-rooted identity into a lifestyle community." },
+      { "role": "subtitle", "text": "2026 Annual Theme & Strategic Objective" },
+      {
+        "role": "heading",
+        "text": "What people identify with first",
+        "children": [
+          { "role": "heading", "text": "Golf Root", "children": [
+            { "role": "body", "text": "Malbon’s credibility starts from the game — its rituals, mindset, self-challenge and connection." }
+          ]},
+          { "role": "callout", "text": "expands" },
+          { "role": "heading", "text": "City Lifestyle Expansion", "children": [
+            { "role": "body", "text": "The city extends the green beyond the course, making golf part of stores, coffee, travel, indoor golf and social moments." }
+          ]},
+          { "role": "heading", "text": "Style & Cultural Expression", "children": [
+            { "role": "body", "text": "Product design, golfcore appeal and collaborations with art, music and fashion invite more people into Malbon’s world." }
+          ]},
+          { "role": "callout", "text": "builds\ninto" },
+          { "role": "heading", "text": "Community Asset", "children": [
+            { "role": "body", "text": "Malbon gathers people who like the product, believe in the attitude and are curious to participate — turning shared taste into brand belonging." }
+          ]}
+        ]
+      },
+      { "role": "callout", "text": "Malbon starts from the green, expands into city lifestyle, invites people through style and cultural expression, then gathers them into a community asset." },
+      { "role": "page-number", "text": "06" }
+    ],
+    "images": [],
+    "logical_links": "The slide presents Malbon's 2026 annual theme '城市果岭 风格无界' (Urban Green, Boundless Style) as a left-to-right progression model. The title and its subtitle frame the strategic objective of turning a golf-rooted identity into a lifestyle community. Below, four sequential cards read as a flow: 'Golf Root' (credibility) 'expands' into 'City Lifestyle Expansion' and 'Style & Cultural Expression', which together 'build into' the final 'Community Asset' card — the connector labels 'expands' and 'builds into' make the cause-effect chain explicit. The 'What people identify with first' heading groups the first three cards as entry points, while the larger Community Asset card is the endpoint outcome. The bottom callout bar restates the whole sequence in one sentence as the slide's takeaway."
+  },
+  {
+    "slide_number": 10,
+    "slide_role": "Content",
+    "title": "Social, campaign and offline should work together to move people from curiosity to participation, then from participation to belonging.",
+    "text_hierarchy": [
+      { "role": "section-label", "text": "MALBON CHINA" },
+      { "role": "title", "text": "Social, campaign and offline should work together to move people from curiosity to participation, then from participation to belonging." },
+      { "role": "subtitle", "text": "Toolkit" },
+      { "role": "heading", "text": "Curiosity" },
+      { "role": "heading", "text": "Participation" },
+      { "role": "heading", "text": "Belonging" },
+      {
+        "role": "heading",
+        "text": "Social Content",
+        "children": [
+          { "role": "callout", "text": "Make the culture visible." },
+          { "role": "body", "text": "Build a diverse content system around golf spirit, lifestyle moments, styling-led expression and community participation — making Malbon easier to understand and closer to daily life." }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Campaign & Collaboration",
+        "children": [
+          { "role": "callout", "text": "Make the idea memorable." },
+          { "role": "body", "text": "Use hero campaigns, KOL stories and paid amplification to turn “Urban Green, Boundless Style” into high-impact narratives that reach beyond core golfers and build lifestyle aspiration." }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Offline Experience",
+        "children": [
+          { "role": "callout", "text": "Make participation real." },
+          { "role": "body", "text": "Transform stores, ranges, indoor golf, pop-ups and city gatherings into accessible entry points where people experience golf culture, meet fellow players and return as part of the community." }
+        ]
+      }
+    ],
+    "images": [],
+    "logical_links": "This slide operationalizes the previous theme into a three-part 'Toolkit'. The title states the strategic objective: three levers working together to advance people along a journey of Curiosity → Participation → Belonging, which appear as stage labels across the top. Each stage sits above one of three parallel columns — Social Content (under Curiosity), Campaign & Collaboration (under Participation), and Offline Experience (under Belonging) — establishing a one-to-one mapping between the customer-journey stage and the channel that drives it. Each column carries a bold imperative tagline ('Make the culture visible / memorable / real') followed by an explanatory body paragraph, so the columns are read as parallel tactics that escalate in commitment from passive viewing to physical, real-world participation."
+  },
+  {
+    "slide_number": 11,
+    "slide_role": "Content",
+    "title": "We are not targeting “golfers” only — we are building Malbon’s China world.",
+    "text_hierarchy": [
+      { "role": "section-label", "text": "MALBON CHINA" },
+      { "role": "title", "text": "We are not targeting “golfers” only — we are building Malbon’s China world." },
+      { "role": "subtitle", "text": "Audience Segmentation" },
+      { "role": "kpi", "text": "01", "children": [
+        { "role": "heading", "text": "Core Players" },
+        { "role": "body", "text": "Real golfers who validate Malbon’s golf credibility." }
+      ]},
+      { "role": "kpi", "text": "02", "children": [
+        { "role": "heading", "text": "Style Players" },
+        { "role": "body", "text": "Golfcore / lifestyle consumers entering through dressing and social content." }
+      ]},
+      { "role": "kpi", "text": "03", "children": [
+        { "role": "heading", "text": "Cultural Connectors" },
+        { "role": "body", "text": "Artists, photographers, buyers, coffee people, musicians and creators." }
+      ]},
+      { "role": "kpi", "text": "04", "children": [
+        { "role": "heading", "text": "Community Builders" },
+        { "role": "body", "text": "Coaches, local KOCs, range hosts and golf community organizers." }
+      ]},
+      { "role": "kpi", "text": "05", "children": [
+        { "role": "heading", "text": "Female Golf-Curious" },
+        { "role": "body", "text": "Women attracted by style, experience and beginner-friendly entry points." }
+      ]},
+      { "role": "callout", "text": "Each audience plays a different role in making Malbon understood, desired and joined." },
+      { "role": "footnote", "text": "© 2026 WalktheChat | Draft strategy chapter" },
+      { "role": "page-number", "text": "10" }
+    ],
+    "images": [],
+    "logical_links": "The slide argues that Malbon's audience extends well beyond literal golfers, as stated in the title, and breaks the target into five numbered segments laid out left to right. Each segment pairs a number (01–05), a name, and a one-line role description, defining a distinct persona: Core Players (credibility), Style Players (fashion entry), Cultural Connectors (creative reach), Community Builders (grassroots organizers), and Female Golf-Curious (a growth segment). The numbering implies a deliberate ordering from the credibility core outward to aspirational and growth audiences. The bottom callout ties the five together by explaining their collective function — making Malbon 'understood, desired and joined' — which echoes the curiosity-to-belonging logic of the prior slides."
+  },
+  {
+    "slide_number": 12,
+    "slide_role": "Section divider",
+    "title": "Social Operation",
+    "text_hierarchy": [
+      { "role": "title", "text": "Social Operation" }
+    ],
+    "images": [],
+    "logical_links": "A minimal section divider containing only the chapter title 'Social Operation' centered on the canvas. It signals a transition from the preceding strategy and audience framing into the social operations portion of the deck, setting context for the channel and content slides that follow."
+  },
+  {
+    "slide_number": 13,
+    "slide_role": "Section divider",
+    "title": "Content Strategy",
+    "text_hierarchy": [
+      { "role": "title", "text": "Content Strategy" }
+    ],
+    "images": [],
+    "logical_links": "A minimal section divider with only the chapter title 'Content Strategy' centered on the canvas. It marks the start of the content-strategy chapter, introducing the upcoming slides on social account assessment, platform choice, and content pillars."
+  },
+  {
+    "slide_number": 14,
+    "slide_role": "Content",
+    "title": "Malbon’s brand accounts are visually strong but need a clearer content structure to drive discovery and engagement.",
+    "text_hierarchy": [
+      { "role": "section-label", "text": "MALBON CHINA" },
+      { "role": "title", "text": "Malbon’s brand accounts are visually strong but need a clearer content structure to drive discovery and engagement." },
+      { "role": "subtitle", "text": "Social Account Assessment" },
+      {
+        "role": "heading",
+        "text": "What is working",
+        "children": [
+          { "role": "body", "text": "WeChat has richer SVG interactions and editorial layouts; RED benefits from premium product and styling assets that naturally suit visual-first browsing." }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "What needs to improve",
+        "children": [
+          { "role": "heading", "text": "WeChat", "children": [
+            { "role": "body", "text": "Maintain a consistent posting frequency to keep the official account active and relevant." },
+            { "role": "body", "text": "Optimize the WeChat menu structure to improve access to brand updates, product drops, store information and community content." },
+            { "role": "body", "text": "Leverage brand campaign/moment to activate engagement campaigns to build a stronger brand hub." }
+          ]},
+          { "role": "heading", "text": "RED", "children": [
+            { "role": "body", "text": "Expand content formats beyond product and styling visuals to build a richer brand narrative." },
+            { "role": "body", "text": "Develop clear content columns with consistent naming, so new users can quickly understand and browse Malbon’s key content areas." }
+          ]}
+        ]
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide14/slide14_img2.gif",
+        "native_aspect_ratio": "185:356",
+        "native_aspect_decimal": 0.52,
+        "native_px": [370, 712],
+        "display_position_in": { "left": 0.663, "top": 2.342, "width": 1.983, "height": 3.816 },
+        "description": "A mobile screenshot of a Malbon Golf WeChat/RED post titled '上海, Game On!' from Malbon Golf, dated 2026年1月24日, set in Shanghai. The dark maroon editorial graphic shows a line-drawn cityscape with an LA KC building and a large stylized 'm' monogram forming a winding golf-course path, with Chinese copy about a white 'signal ball' arcing across the Pacific and landing in central Shanghai ('城市,就是我们的新果岭 / 这一次,Buckets 为你而来'), plus a 'Final Approach' label; engagement icons (9 likes, 18 reposts, 7, 2) appear at the bottom.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide14/slide14_img1.jpg",
+        "native_aspect_ratio": "46:95",
+        "native_aspect_decimal": 0.484,
+        "native_px": [184, 380],
+        "display_position_in": { "left": 2.782, "top": 2.983, "width": 1.921, "height": 3.951 },
+        "description": "A mobile screenshot of a Malbon RED (Xiaohongshu) '笔记' feed grid showing four note thumbnails in a two-column layout: a collage with golf and fashion imagery captioned about 'pension aesthetics', a woman in a cap and dark polo sipping coffee on a course (caption referencing Gallo Colorido), a 'Malbon Home message from Augusta' post with 134 likes, and a vintage golf crowd photo; all posted under the 'Malbon' account with like counts (76, 134, etc.).",
+        "role": "screenshot"
+      }
+    ],
+    "logical_links": "The slide assesses Malbon's existing China social accounts, with the title delivering the core judgment: visually strong but lacking content structure. The two mobile screenshots on the left provide visual evidence — a polished WeChat editorial post ('上海, Game On!') and a RED note-feed grid — demonstrating the 'visually strong' premise. The right-hand text block then splits the analysis into 'What is working' (richer SVG/editorial on WeChat, premium visual assets on RED) and 'What needs to improve', the latter broken per platform: WeChat needs consistent posting, a better menu, and campaign-driven engagement, while RED needs broader content formats and clearly named content columns. The images thus anchor the assessment, and the body translates the visual-strength-but-weak-structure thesis into concrete per-platform fixes."
+  },
+  {
+    "slide_number": 15,
+    "slide_role": "Data chart",
+    "title": "Channel suggestion: lean more resources on RED for brand building and performance-driven actions.",
+    "text_hierarchy": [
+      { "role": "section-label", "text": "MALBON CHINA" },
+      { "role": "title", "text": "Channel suggestion: lean more resources on RED for brand building and performance-driven actions." },
+      { "role": "subtitle", "text": "Platform Suggestion" },
+      {
+        "role": "heading",
+        "text": "DIMENSION",
+        "children": [
+          { "role": "heading", "text": "WECHAT →" },
+          { "role": "heading", "text": "RED ↑" },
+          { "role": "heading", "text": "WEIBO ↓" },
+          { "role": "heading", "text": "DOUYIN ↑" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "ROLE",
+        "children": [
+          { "role": "body", "text": "Brand hub, loyalty, PR" },
+          { "role": "body", "text": "Product and brand discovery and review.\nUsed as a dynamic info search engine." },
+          { "role": "body", "text": "Buzz and events" },
+          { "role": "body", "text": "Mass awareness" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "STRENGTH",
+        "children": [
+          { "role": "body", "text": "CRM and loyalty management" },
+          { "role": "body", "text": "“She-economy”: 70% active female users.\nNo.1 platform for creator marketing.\nHigh purchasing power." },
+          { "role": "body", "text": "Good for celebrity collaboration, but engagement is declining." },
+          { "role": "body", "text": "Good for mass targeting to grow awareness.\nRequires frequent livestreaming to perform." }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "OUR SUGGESTION",
+        "children": [
+          { "role": "callout", "text": "Maintain" },
+          { "role": "callout", "text": "FOCUS / Active" },
+          { "role": "callout", "text": "Later stage" },
+          { "role": "callout", "text": "Later stage" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "POSTS / MONTH",
+        "children": [
+          { "role": "body", "text": "4" },
+          { "role": "body", "text": "12" },
+          { "role": "body", "text": "Ad-hoc" },
+          { "role": "body", "text": "10–12" }
+        ]
+      },
+      { "role": "callout", "text": "RED should be the core platform to build discoverability, creator credibility and purchase intent." },
+      { "role": "footnote", "text": "Platform suggestion | draft" },
+      { "role": "page-number", "text": "12" }
+    ],
+    "images": [],
+    "logical_links": "This is a comparison matrix that backs the title's recommendation to concentrate resources on RED. The table's left column lists five evaluation dimensions (DIMENSION, ROLE, STRENGTH, OUR SUGGESTION, POSTS / MONTH) and the four platform columns (WeChat, RED, Weibo, Douyin) are each tagged with a trend arrow — RED and Douyin '↑', Weibo '↓', WeChat '→' — signaling momentum. Reading down each column lets the reader compare role, strength, recommended action, and cadence side by side: RED is singled out as 'FOCUS / Active' with 12 posts/month thanks to its she-economy and creator-marketing strengths, WeChat is to 'Maintain' as a brand hub (4 posts), while Weibo and Douyin are deferred to a 'Later stage'. The bottom callout bar restates the conclusion that RED should be the core platform, making the matrix the evidence for the channel prioritization."
+  },
+  {
+    "slide_number": 16,
+    "slide_role": "Content",
+    "title": "We plan six content pillars to build Malbon’s always-on social narrative. Each pillar gives the brand account a clear content territory.",
+    "text_hierarchy": [
+      { "role": "section-label", "text": "MALBON CHINA" },
+      { "role": "title", "text": "We plan six content pillars to build Malbon’s always-on social narrative. Each pillar gives the brand account a clear content territory." },
+      {
+        "role": "heading",
+        "text": "果岭笔记",
+        "children": [
+          { "role": "subtitle", "text": "Golf Culture & Brand POV" },
+          { "role": "body", "text": "Brand moments\nMalbon’s take on golf\nBrand inspiration/Mood board" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "新品入局",
+        "children": [
+          { "role": "subtitle", "text": "Product & Drop" },
+          { "role": "body", "text": "New drops\nDesign inspiration\nMaterial & function\nKey SKU focus" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "城市果岭",
+        "children": [
+          { "role": "subtitle", "text": "Lifestyle Scenario" },
+          { "role": "body", "text": "City outfit guide\nStore visit\nCoffee / travel / weekend\nIndoor golf / range\nKOL / celebrity repost" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "风格无界",
+        "children": [
+          { "role": "subtitle", "text": "Culture & Collaboration" },
+          { "role": "body", "text": "Artist / musician collab\nFashion crossover\nCollaboration story\nCultural figure styling\nBehind the drop" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Bucket Club",
+        "children": [
+          { "role": "subtitle", "text": "Community & Sports Marketing" },
+          { "role": "body", "text": "Club highlights" },
+          { "role": "body", "text": "Member stories" },
+          { "role": "body", "text": "Tournament calendar" },
+          { "role": "body", "text": "China Tour / LPGA updates" },
+          { "role": "body", "text": "Practice & play moments" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "球友召集",
+        "children": [
+          { "role": "subtitle", "text": "Engagement Campaign" },
+          { "role": "body", "text": "Comment interaction\nStyling vote\nLucky draw\nStore check-in\nUGC / RSVP / sign-up" }
+        ]
+      },
+      { "role": "callout", "text": "The content system should make Malbon more searchable, more understandable and more participatory across RED and WeChat." }
+    ],
+    "images": [
+      {
+        "file": "images/slide16/slide16_img1.png",
+        "native_aspect_ratio": "95:126",
+        "native_aspect_decimal": 0.754,
+        "native_px": [190, 252],
+        "display_position_in": { "left": 0.395, "top": 1.796, "width": 1.975, "height": 2.622 },
+        "description": "A cinematic movie-style poster titled 'COMMON GROUNDS' in large white type, framed as 'A Malbon Golf film', showing a moody dark cafe/clubhouse interior with a coffee setup (silver pot, cups, condiments) on a counter; credit-block text and a Malbon logo appear at the bottom.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide16/slide16_img5.png",
+        "native_aspect_ratio": "3:4",
+        "native_aspect_decimal": 0.75,
+        "native_px": [189, 252],
+        "display_position_in": { "left": 2.519, "top": 1.793, "width": 1.966, "height": 2.622 },
+        "description": "A product/editorial shot of a woman wearing a navy Malbon short-sleeve knit polo top and matching pleated skirt with white piping, photographed among tropical jungle foliage with other figures around her — a styled lookbook image for a clothing drop.",
+        "role": "product-shot"
+      },
+      {
+        "file": "images/slide16/slide16_img2.png",
+        "native_aspect_ratio": "3:4",
+        "native_aspect_decimal": 0.75,
+        "native_px": [189, 252],
+        "display_position_in": { "left": 4.639, "top": 1.796, "width": 1.966, "height": 2.622 },
+        "description": "A lifestyle photo of a woman on a sunlit golf course wearing a navy 'LEISURE' hoodie, white pleated skirt, cap and white sneakers, holding a club with a golf push-cart beside her; small Chinese caption text ('轻松上场·自在享受其中') overlays the image.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide16/slide16_img3.jpg",
+        "native_aspect_ratio": "3:4",
+        "native_aspect_decimal": 0.75,
+        "native_px": [189, 252],
+        "display_position_in": { "left": 6.769, "top": 1.796, "width": 1.966, "height": 2.622 },
+        "description": "A product shot of a pair of green-and-white Malbon suede sneakers floating against a clear blue sky, styled as a clean collaboration/fashion crossover image.",
+        "role": "product-shot"
+      },
+      {
+        "file": "images/slide16/slide16_img6.png",
+        "native_aspect_ratio": "193:252",
+        "native_aspect_decimal": 0.766,
+        "native_px": [193, 252],
+        "display_position_in": { "left": 8.855, "top": 1.793, "width": 2.007, "height": 2.623 },
+        "description": "A LIV Golf-branded sports poster of golfer Anthony Kim mid-stride on a course, with bold headline text 'FOR ANYONE WHO’S STRUGGLING, YOU CAN GET THROUGH ANYTHING' and his name/credentials, plus his handwritten signature at the bottom.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide16/slide16_img4.png",
+        "native_aspect_ratio": "3:4",
+        "native_aspect_decimal": 0.75,
+        "native_px": [189, 252],
+        "display_position_in": { "left": 10.981, "top": 1.796, "width": 1.969, "height": 2.622 },
+        "description": "A green 'Malbon' collage graphic showing a stylized China map with city pins (广州, 北京, 上海, 深圳, 武汉, 杭州) and several inset photos of people in Malbon outfits posing in different city locations, captioned '期待解锁更多城市打卡' (looking forward to unlocking more city check-ins).",
+        "role": "photo"
+      }
+    ],
+    "logical_links": "The slide lays out Malbon's six proposed content pillars as a horizontal row, each presented as a paired image (top) and text card (bottom) in matching columns. From left to right the pillars are 果岭笔记 / Golf Culture & Brand POV (illustrated by the 'COMMON GROUNDS' brand film poster), 新品入局 / Product & Drop (the navy outfit product-shot), 城市果岭 / Lifestyle Scenario (the on-course leisure lifestyle photo), 风格无界 / Culture & Collaboration (the green collab sneakers), Bucket Club / Community & Sports Marketing (the LIV Golf Anthony Kim athlete poster), and 球友召集 / Engagement Campaign (the Malbon city-check-in map collage). Each image is a concrete visual example of the territory its card defines below it, and each card lists representative content types under a bilingual Chinese name and English descriptor. The bottom callout bar states the overall purpose — making Malbon more searchable, understandable and participatory across RED and WeChat — framing the six pillars as a single coherent always-on content system per the title."
+  }
+]

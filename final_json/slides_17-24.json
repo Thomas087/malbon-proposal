@@ -1,0 +1,292 @@
+[
+ {
+  "slide_number": 17,
+  "slide_role": "Content",
+  "title": "Brand-oriented content can make the brand easier to understand through lighter, more human storytelling.",
+  "text_hierarchy": [
+   { "role": "section-label", "text": "MALBON CHINA" },
+   { "role": "title", "text": "Brand-oriented content can make the brand easier to understand through lighter, more human storytelling." },
+   { "role": "caption", "text": "The 6 posts under @HONMA’s brand story collection generated 120K+ total engagements, with 5 out of 6 posts receiving over 1K likes and becoming viral posts." },
+   { "role": "caption", "text": "@MARIMEKKO used an office vlog format to show the brand’s HQ culture, turning internal daily moments into approachable brand storytelling and helping audiences feel closer to the brand." }
+  ],
+  "images": [
+   {
+    "file": "images/slide17/slide17_img1.jpg",
+    "native_aspect_ratio": "217:400",
+    "native_aspect_decimal": 0.542,
+    "native_px": [217, 400],
+    "display_position_in": { "left": 1.965, "top": 1.947, "width": 2.257, "height": 4.165 },
+    "description": "A vertical RED (Xiaohongshu) screenshot of @HONMA's '品牌故事' (Brand Story) video collection list. It shows a series of short-video thumbnails with Chinese titles, durations (e.g. 02:32, 02:54, 00:43) and view/like/comment counts, plus a 'collect this set' button at the bottom — a curated brand-story playlist.",
+    "role": "screenshot"
+   },
+   {
+    "file": "images/slide17/slide17_img2.png",
+    "native_aspect_ratio": "51:43",
+    "native_aspect_decimal": 1.186,
+    "native_px": [459, 387],
+    "display_position_in": { "left": 5.766, "top": 1.961, "width": 4.776, "height": 4.023 },
+    "description": "A RED post detail view from MARIMEKKO's account. Left side shows a food/breakfast vlog frame with the caption overlay 'POV: You work at Marimekko HQ' (工作Vlog | Marimekko總部午餐日常); right side shows the Chinese caption text and a comment thread, illustrating an office-vlog brand-storytelling format.",
+    "role": "screenshot"
+   },
+   {
+    "file": "images/slide17/slide17_img3.png",
+    "native_aspect_ratio": "237:386",
+    "native_aspect_decimal": 0.614,
+    "native_px": [237, 386],
+    "display_position_in": { "left": 10.134, "top": 2.228, "width": 2.468, "height": 4.023 },
+    "description": "A vertical RED video thumbnail from MARIMEKKO showing a person in a printed jacket walking through the brand's HQ corridor with pink walls and an iconic Unikko-print sofa. Overlay text reads 'POV: you work at Marimekko HQ' and the Chinese title '在Marimekko总部上班是什么体验？' with 2116 likes.",
+    "role": "screenshot"
+   }
+  ],
+  "logical_links": "The title argues that lighter, human storytelling makes a brand easier to understand, and the two case columns below prove it with real benchmarks. The left @HONMA screenshot (img1) and its caption show how a structured 'brand story' video collection drove 120K+ engagements with 5 of 6 posts going viral, demonstrating the payoff of narrative content. The right pair of MARIMEKKO screenshots (img2 detail post, img3 video thumbnail) together with the second caption illustrate a different tactic — an office-vlog format that humanizes the brand by showing HQ culture. Reading flows left-to-right from one proof case (HONMA storytelling) to another (Marimekko vlog), with each image visually anchored above the caption that explains its result."
+ },
+ {
+  "slide_number": 18,
+  "slide_role": "Content",
+  "title": "Moodboard-style content is a natural extension of Malbon’s origin, helping the brand continuously express its taste, attitude and values in a softer way.",
+  "text_hierarchy": [
+   { "role": "section-label", "text": "MALBON CHINA" },
+   { "role": "title", "text": "Moodboard-style content is a natural extension of Malbon’s origin, helping the brand continuously express its taste, attitude and values in a softer way." },
+   { "role": "caption", "text": "@AMI Paris curated playlist has received 3K+ listens, while the hashtag #AmiParis友你真好 generated around 500K views." },
+   { "role": "caption", "text": "@Sporty & Rich uses playlists, moodboards and short statements to softly express its lifestyle values, attracting audiences who identify with the same taste, attitude and cultural references." }
+  ],
+  "images": [
+   {
+    "file": "images/slide18/slide18_img1.png",
+    "native_aspect_ratio": "508:397",
+    "native_aspect_decimal": 1.28,
+    "native_px": [508, 397],
+    "display_position_in": { "left": 0.859, "top": 2.095, "width": 5.285, "height": 4.125 },
+    "description": "Side-by-side RED screenshots of an AMI Paris music campaign. Left is a QQ Music playlist card titled 'THANK YOU FOR BEING A FRIEND' / '友你真好' with a curated song list (Friends, I'll Be There For You); right is the matching RED post caption announcing the 'Ami Paris x QQ音乐' collaboration with a comment thread.",
+    "role": "screenshot"
+   },
+   {
+    "file": "images/slide18/slide18_img2.png",
+    "native_aspect_ratio": "3:4",
+    "native_aspect_decimal": 0.75,
+    "native_px": [195, 260],
+    "display_position_in": { "left": 6.832, "top": 2.556, "width": 2.034, "height": 2.712 },
+    "description": "A Sporty & Rich playlist/moodboard card labeled 'No.3', featuring the Rodriguez album image 'Coming From Reality' with the track 'I Think Of You' and lyric line 'Down the streets I walked with you' — a curated music moodboard tile.",
+    "role": "screenshot"
+   },
+   {
+    "file": "images/slide18/slide18_img3.png",
+    "native_aspect_ratio": "195:259",
+    "native_aspect_decimal": 0.753,
+    "native_px": [195, 259],
+    "display_position_in": { "left": 8.373, "top": 3.031, "width": 2.026, "height": 2.702 },
+    "description": "A Sporty & Rich moodboard image of Princess Diana in a pink cardigan with a white towel, overlaid with the statement 'Do not work more than you live' — a vintage-photo lifestyle/values tile.",
+    "role": "photo"
+   },
+   {
+    "file": "images/slide18/slide18_img4.png",
+    "native_aspect_ratio": "3:4",
+    "native_aspect_decimal": 0.75,
+    "native_px": [195, 260],
+    "display_position_in": { "left": 10.293, "top": 2.566, "width": 2.034, "height": 2.712 },
+    "description": "A Sporty & Rich moodboard image of a woman in a white dress running on a beach, overlaid with the statement 'Don’t get attached' — another aspirational lifestyle/values tile.",
+    "role": "photo"
+   }
+  ],
+  "logical_links": "The title frames moodboard-style content as a soft way to express taste, attitude and values, and the slide splits into two supporting columns. The left AMI Paris screenshot (img1) plus its caption show the 'playlist as moodboard' tactic, quantified by 3K+ listens and ~500K hashtag views. The right cluster of three Sporty & Rich tiles (img2 music card, img3 Diana statement, img4 beach statement) visually demonstrates the second caption's point that playlists, moodboards and short statements attract like-minded audiences. Reading order runs left (one brand case with metrics) to right (a second brand showing the full moodboard vocabulary), with the three stacked tiles collectively embodying the 'taste, attitude and cultural references' the caption describes."
+ },
+ {
+  "slide_number": 19,
+  "slide_role": "Content",
+  "title": "A strong product drop needs a full storyline from teaser to styling scenario to build product desire progressively.",
+  "text_hierarchy": [
+   { "role": "section-label", "text": "MALBON CHINA" },
+   { "role": "title", "text": "A strong product drop needs a full storyline from teaser to styling scenario to build product desire progressively." },
+   { "role": "heading", "text": "New Collection Launch: use PDPAOLA ICONS & ROUJE PALOMA as examples" },
+   { "role": "label", "text": "Teaser" },
+   { "role": "label", "text": "Editorial" },
+   { "role": "label", "text": "Design Story" },
+   { "role": "label", "text": "Teaser" },
+   { "role": "label", "text": "Editorial" },
+   { "role": "label", "text": "Design Story" },
+   { "role": "caption", "text": "*Click to play" },
+   { "role": "caption", "text": "*Click to play" },
+   { "role": "callout", "text": "Teaser",
+     "children": [ { "role": "body", "text": "Build pre-launch curiosity through product details, mood visuals and short campaign snippets." } ] },
+   { "role": "callout", "text": "Editorial",
+     "children": [ { "role": "body", "text": "Feature global campaign assets with platform-friendly captions and content sequencing, helping audiences better understand the collection." } ] },
+   { "role": "callout", "text": "Design Story",
+     "children": [ { "role": "body", "text": "Feature Malbon team narration on design inspiration, functional details, material choices and golf culture references." } ] },
+   { "role": "callout", "text": "KOL Styling",
+     "children": [ { "role": "body", "text": "Use KOL content to show the collection across different scenarios, from course to city life." } ] }
+  ],
+  "images": [
+   {
+    "file": "images/slide19/slide19_img1.jpg",
+    "native_aspect_ratio": "3:4",
+    "native_aspect_decimal": 0.75,
+    "native_px": [129, 172],
+    "display_position_in": { "left": 5.556, "top": 2.625, "width": 1.339, "height": 1.785 },
+    "description": "A small vertical ROUJE PALOMA campaign card showing a woman in a black-and-red floral skirt dancing flamenco-style in sunlight, with 'PALOMA' and 'COLLECTION' text — an editorial/teaser campaign visual.",
+    "role": "photo"
+   },
+   {
+    "file": "images/slide19/slide19_img2.jpg",
+    "native_aspect_ratio": "127:170",
+    "native_aspect_decimal": 0.747,
+    "native_px": [127, 170],
+    "display_position_in": { "left": 6.332, "top": 3.594, "width": 1.325, "height": 1.766 },
+    "description": "A small vertical ROUJE PALOMA campaign card showing a woman in a tailored grey pinstripe suit with a red rose on a Parisian street, labeled 'PALOMA COLLECTION' — an editorial styling visual.",
+    "role": "photo"
+   }
+  ],
+  "logical_links": "The title's thesis — that a product drop needs a progressive storyline from teaser to styling scenario — is operationalized by the table heading naming PDPAOLA ICONS and ROUJE PALOMA as worked examples. The slide is organized into two halves (left and right), each carrying a 'Teaser / Editorial / Design Story' label row over playable content (each with a '*Click to play' note), and the two small ROUJE PALOMA photos (img1, img2) sit in the right example as its editorial/teaser visuals. The bottom row of four stacked callouts — Teaser, Editorial, Design Story, KOL Styling — spells out the sequential content phases that build desire step by step, mapping directly onto the label columns above and providing the methodology the case examples illustrate."
+ },
+ {
+  "slide_number": 20,
+  "slide_role": "Content",
+  "title": "Signature brand elements can be turned into reusable content assets to strengthen recognition and engagement.",
+  "text_hierarchy": [
+   { "role": "section-label", "text": "MALBON CHINA" },
+   { "role": "title", "text": "Signature brand elements can be turned into reusable content assets to strengthen recognition and engagement." },
+   { "role": "caption", "text": "The Bucket character can become a recognizable social cue, helping Malbon build a more ownable and playful brand language across RED and WeChat." },
+   { "role": "caption", "text": "@MARIMEKKO turned its iconic prints into social assets across wallpapers, calendars and behind-the-scenes content, including print mill stories and factory visit videos. These formats helped the brand repeatedly reinforce its print heritage while creating useful, save-worthy and highly engaging content." }
+  ],
+  "images": [
+   {
+    "file": "images/slide20/slide20_img1.png",
+    "native_aspect_ratio": "1:1",
+    "native_aspect_decimal": 1.0,
+    "native_px": [99, 99],
+    "display_position_in": { "left": 1.846, "top": 3.233, "width": 1.034, "height": 1.034 },
+    "description": "A dark-green square logo/icon of Malbon's 'Bucket' character — a stylized smiling face inside an ornate scrolled frame, the brand's signature mascot.",
+    "role": "logo"
+   },
+   {
+    "file": "images/slide20/slide20_img2.png",
+    "native_aspect_ratio": "287:444",
+    "native_aspect_decimal": 0.646,
+    "native_px": [287, 444],
+    "display_position_in": { "left": 9.61, "top": 1.906, "width": 2.988, "height": 4.631 },
+    "description": "A vertical RED post from MARIMEKKO titled '印花工坊 | 永不褪色的日常魔法' (Print Mill | the everyday magic of never-fading color) showing colorful Unikko-print fabric panels in the print factory, with 6065 likes — a behind-the-scenes print-heritage asset.",
+    "role": "screenshot"
+   },
+   {
+    "file": "images/slide20/slide20_img3.jpg",
+    "native_aspect_ratio": "220:447",
+    "native_aspect_decimal": 0.492,
+    "native_px": [220, 447],
+    "display_position_in": { "left": 7.131, "top": 1.906, "width": 2.287, "height": 4.655 },
+    "description": "A vertical RED post showing a downloadable MARIMEKKO 'Mar 2024' floral calendar wallpaper in pink Unikko print, captioned '花式月历 | 3月关键词：生机' with 447 likes — a save-worthy wallpaper/calendar content asset.",
+    "role": "screenshot"
+   },
+   {
+    "file": "images/slide20/slide20_img4.jpg",
+    "native_aspect_ratio": "109:223",
+    "native_aspect_decimal": 0.489,
+    "native_px": [218, 446],
+    "display_position_in": { "left": 4.662, "top": 1.906, "width": 2.277, "height": 4.655 },
+    "description": "A vertical RED post showing a MARIMEKKO Unikko-print wallpaper (Maija Isola, 1964) in pink and orange, titled '印花博物馆 | 2023春夏系列印花壁纸上线' with 5237 likes — a print-as-wallpaper social asset.",
+    "role": "screenshot"
+   }
+  ],
+  "logical_links": "The title claims signature brand elements can become reusable content assets, and the slide demonstrates this twice — once for Malbon and once for Marimekko. On the left, the Bucket character logo (img1) and its caption argue that Malbon's mascot can serve as an ownable, recognizable social cue across RED and WeChat. On the right, three MARIMEKKO RED screenshots (img4 and img3 print wallpapers, img2 print-mill behind-the-scenes) plus the longer caption prove the concept at scale, showing how iconic prints were repackaged into wallpapers, calendars and factory videos that are save-worthy and high-engagement. The layout contrasts Malbon's opportunity (left, single icon) against a validated benchmark (right, multiple high-like asset examples)."
+ },
+ {
+  "slide_number": 21,
+  "slide_role": "Content",
+  "title": "Collaboration content should turn both brands’ audiences into shared growth opportunities through co-created assets, mutual tagging, shared hashtags and paid amplification.",
+  "text_hierarchy": [
+   { "role": "section-label", "text": "MALBON CHINA" },
+   { "role": "title", "text": "Collaboration content should turn both brands’ audiences into shared growth opportunities through co-created assets, mutual tagging, shared hashtags and paid amplification." },
+   { "role": "caption", "text": "Marimekko x CASETiFY used co-created print assets, mutual mentions and shared product links to connect both brand audiences and create multiple discovery entry points for the collaboration." },
+   { "role": "kpi", "text": "Engagement：6,223" },
+   { "role": "kpi", "text": "New Followers in 7 days: 659" }
+  ],
+  "images": [
+   {
+    "file": "images/slide21/slide21_img1.jpg",
+    "native_aspect_ratio": "177:358",
+    "native_aspect_decimal": 0.494,
+    "native_px": [177, 358],
+    "display_position_in": { "left": 0.976, "top": 2.42, "width": 1.849, "height": 3.735 },
+    "description": "A vertical RED post for the 'marimekko x CASETiFY' co-branded wallpaper, showing a co-created print design in blue/purple leaf and floral motifs with both brand logos locked up together — a co-created collaboration asset.",
+    "role": "screenshot"
+   },
+   {
+    "file": "images/slide21/slide21_img2.jpg",
+    "native_aspect_ratio": "177:359",
+    "native_aspect_decimal": 0.493,
+    "native_px": [177, 359],
+    "display_position_in": { "left": 3.048, "top": 2.42, "width": 1.849, "height": 3.741 },
+    "description": "A vertical RED post from CASETiFY MAG showing a pink Unikko-print phone lock-screen wallpaper (18:00 clock) beside a matching marimekko x CASETiFY phone case product shot — demonstrating co-created assets and shared product links.",
+    "role": "screenshot"
+   },
+   {
+    "file": "images/slide21/slide21_img3.png",
+    "native_aspect_ratio": "459:388",
+    "native_aspect_decimal": 1.183,
+    "native_px": [459, 388],
+    "display_position_in": { "left": 7.194, "top": 2.309, "width": 4.779, "height": 4.04 },
+    "description": "A RED post detail for the 'UNIQLO x Marimekko' 2024 New Year series, left image showing a snowman with a 'marimekko x UNIQLO' lock-up in a snowy scene; right side shows the Chinese caption with shared hashtags (#marimekko #UNIQLO) and a comment thread — another co-branding example using mutual tagging and hashtags.",
+    "role": "screenshot"
+   }
+  ],
+  "logical_links": "The title sets out the collaboration playbook — co-created assets, mutual tagging, shared hashtags and paid amplification to merge both brands' audiences — and the images and captions evidence it. The left pair of screenshots (img1 co-created wallpaper, img2 wallpaper plus phone-case product) sit above the Marimekko x CASETiFY caption, which names the exact mechanisms (co-created prints, mutual mentions, shared links) and is quantified by the bottom-right KPIs of 6,223 engagement and 659 new followers in 7 days. The right screenshot (img3, UNIQLO x Marimekko) provides a second co-branding proof point showing shared hashtags and mutual tagging. Reading flows from the strategic claim down into concrete co-branded examples, with the metrics validating the audience-growth promise."
+ },
+ {
+  "slide_number": 22,
+  "slide_role": "Content",
+  "title": "Special occasions and collaborations are the most effective moments to activate engagement campaigns",
+  "text_hierarchy": [
+   { "role": "section-label", "text": "MALBON CHINA" },
+   { "role": "title", "text": "Special occasions and collaborations are the most effective moments to activate engagement campaigns" },
+   { "role": "caption", "text": "Chinese Valentine’s Day Online Giveaway @Missoma",
+     "children": [
+       { "role": "kpi", "text": "1K+ Engagement" },
+       { "role": "body", "text": "Spread the love—tag your special someone and comment below for a chance to win this gift" }
+     ] },
+   { "role": "caption", "text": "Marimekko x HEYTEA Collaboration Engagement Campaign",
+     "children": [
+       { "role": "kpi", "text": "6K+ Engagement" },
+       { "role": "body", "text": "Invited users to share photos and stories of their encounters with Marimekko and HEYTEA for a chance to win a limited gift box." }
+     ] }
+  ],
+  "images": [
+   {
+    "file": "images/slide22/slide22_img1.png",
+    "native_aspect_ratio": "39:29",
+    "native_aspect_decimal": 1.345,
+    "native_px": [507, 377],
+    "display_position_in": { "left": 0.881, "top": 2.069, "width": 5.263, "height": 3.915 },
+    "description": "Side-by-side RED screenshots of a Missoma Chinese Valentine's Day giveaway. Left shows a pearl-and-gold knot bracelet on a blue surface with bold 'Win Win Win' text; right shows the Chinese caption '七月抽奖 | 手拉手的惊喜告白' with hashtags and a comment thread — a tag-and-comment giveaway post.",
+    "role": "screenshot"
+   },
+   {
+    "file": "images/slide22/slide22_img2.png",
+    "native_aspect_ratio": "441:374",
+    "native_aspect_decimal": 1.179,
+    "native_px": [441, 374],
+    "display_position_in": { "left": 7.25, "top": 2.032, "width": 4.591, "height": 3.885 },
+    "description": "Side-by-side RED screenshots of the Marimekko x HEYTEA campaign. Left shows a woman in an orange print dress sitting under trees drinking a HEYTEA beverage with a co-branded gift bag; right shows the Chinese caption 'HEYTEA x Marimekko | 以花为名，享悦绽放' with collaboration hashtags — a share-your-story engagement campaign.",
+    "role": "screenshot"
+   }
+  ],
+  "logical_links": "The title asserts that special occasions and collaborations are the best triggers for engagement campaigns, and the two columns supply one example of each trigger type. The left Missoma screenshot (img1) plus its caption embody the 'special occasion' case — a Chinese Valentine's Day giveaway with a tag-and-comment mechanic generating 1K+ engagement. The right Marimekko x HEYTEA screenshot (img2) plus its caption embody the 'collaboration' case — a share-your-story campaign driving 6K+ engagement. Each image sits above its descriptive caption, KPI and mechanic, and the side-by-side layout lets the higher-performing collaboration (6K+) be read against the occasion-based giveaway (1K+), reinforcing the title's two-pronged claim."
+ },
+ {
+  "slide_number": 23,
+  "slide_role": "Section divider",
+  "title": "PR, Campaign & Ads",
+  "text_hierarchy": [
+   { "role": "title", "text": "PR, Campaign & Ads" }
+  ],
+  "images": [],
+  "logical_links": "This is a section-divider slide containing only the centered heading 'PR, Campaign & Ads'. It introduces the next thematic block of the deck, signaling a shift away from the preceding organic content-strategy slides toward paid PR, campaign and advertising topics. With no images or body text, its sole logical function is to mark a structural transition and orient the reader to the upcoming section."
+ },
+ {
+  "slide_number": 24,
+  "slide_role": "Section divider",
+  "title": "KOL Campaign Strategy",
+  "text_hierarchy": [
+   { "role": "title", "text": "KOL Campaign Strategy" }
+  ],
+  "images": [],
+  "logical_links": "This is a section-divider slide with only the centered heading 'KOL Campaign Strategy'. It opens a focused subsection on key-opinion-leader (influencer) campaigns, narrowing from the broader 'PR, Campaign & Ads' divider on slide 23 into the specific KOL strategy that follows. It carries no images or supporting text; its purpose is purely navigational, cueing the reader that subsequent slides detail the KOL approach."
+ }
+]

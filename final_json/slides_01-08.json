@@ -1,0 +1,669 @@
+[
+  {
+    "slide_number": 1,
+    "slide_role": "Title",
+    "title": "Malbon China Y26-Y27 Proposal",
+    "text_hierarchy": [
+      {
+        "role": "title",
+        "text": "Malbon China Y26-Y27 Proposal",
+        "children": [
+          {
+            "role": "subtitle",
+            "text": "by WalktheChat"
+          }
+        ]
+      }
+    ],
+    "images": [],
+    "logical_links": "This is the cover slide of the deck. The large title 'Malbon China Y26-Y27 Proposal' names the client (Malbon), the market (China) and the timeframe (Y26-Y27), establishing the document as a forward-looking strategy proposal. The subtitle 'by WalktheChat' sits directly beneath it, attributing authorship to the agency. The two stacked, left-aligned text blocks read top to bottom with no competing imagery, so all attention is on the engagement framing."
+  },
+  {
+    "slide_number": 2,
+    "slide_role": "Section divider",
+    "title": "Strategy Overview",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "Strategy Overview",
+        "children": [
+          {
+            "role": "subtitle",
+            "text": "From Global Brand Story to China Growth Strategy"
+          }
+        ]
+      }
+    ],
+    "images": [],
+    "logical_links": "This is a section divider opening the strategy portion of the deck. The heading 'Strategy Overview' labels the upcoming section, and the bold 28pt subtitle 'From Global Brand Story to China Growth Strategy' frames the narrative arc the section will follow: translating Malbon's existing global identity into a concrete China growth plan. The subtitle sits below the heading and acts as the thesis statement that the subsequent content slides (market data, tensions, opportunity) will substantiate."
+  },
+  {
+    "slide_number": 3,
+    "slide_role": "Data chart",
+    "title": "Golf participation is growing, and indoor venues are making access more repeatable.",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "MALBON CHINA"
+      },
+      {
+        "role": "title",
+        "text": "Golf participation is growing, and indoor venues are making access more repeatable.",
+        "children": [
+          {
+            "role": "subtitle",
+            "text": "China Golf Market Observation"
+          },
+          {
+            "role": "body",
+            "text": "Comparable on-course data shows steady growth, while indoor rounds are scaling much faster — expanding golf from occasional course participation into more urban and accessible play occasions."
+          }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "On-course participation keeps rising",
+        "children": [
+          {
+            "role": "body",
+            "text": "Traditional golf participation continues to grow steadily."
+          },
+          {
+            "role": "caption",
+            "text": "On-course golf participants"
+          },
+          {
+            "role": "caption",
+            "text": "Unit: 10k participants; comparable series"
+          },
+          {
+            "role": "kpi",
+            "text": "100"
+          },
+          {
+            "role": "kpi",
+            "text": "95"
+          },
+          {
+            "role": "kpi",
+            "text": "90"
+          },
+          {
+            "role": "kpi",
+            "text": "93.7",
+            "children": [
+              { "role": "caption", "text": "2018" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "94.7",
+            "children": [
+              { "role": "caption", "text": "2019" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "95.5",
+            "children": [
+              { "role": "caption", "text": "2020" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "96.5",
+            "children": [
+              { "role": "caption", "text": "2021" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "97.5",
+            "children": [
+              { "role": "caption", "text": "2022" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "98.5",
+            "children": [
+              { "role": "caption", "text": "2023" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "+5.1%",
+            "children": [
+              { "role": "caption", "text": "2018–2023" }
+            ]
+          },
+          {
+            "role": "callout",
+            "text": "The core golf base remains meaningful — but growth is steady rather than explosive."
+          }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Indoor golf is scaling faster",
+        "children": [
+          {
+            "role": "body",
+            "text": "Urban venues are turning golf into a more frequent and lower-threshold experience."
+          },
+          {
+            "role": "caption",
+            "text": "Indoor golf venue rounds"
+          },
+          {
+            "role": "caption",
+            "text": "Unit: million venue rounds"
+          },
+          {
+            "role": "kpi",
+            "text": "11"
+          },
+          {
+            "role": "kpi",
+            "text": "5.5"
+          },
+          {
+            "role": "kpi",
+            "text": "0"
+          },
+          {
+            "role": "kpi",
+            "text": "4.61",
+            "children": [
+              { "role": "caption", "text": "2021" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "5.57",
+            "children": [
+              { "role": "caption", "text": "2022" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "7.1",
+            "children": [
+              { "role": "caption", "text": "2023" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "10.07",
+            "children": [
+              { "role": "caption", "text": "2024" }
+            ]
+          },
+          {
+            "role": "kpi",
+            "text": "+118%",
+            "children": [
+              { "role": "caption", "text": "2021–2024" }
+            ]
+          },
+          {
+            "role": "callout",
+            "text": "Indoor venues are becoming a practical entry engine for new players, social occasions and repeat participation."
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Golf access is moving from “exclusive course participation” toward a broader urban participation funnel."
+      },
+      {
+        "role": "body",
+        "text": "Strategic interpretation: golf access is shifting from exclusive course occasions toward a broader urban participation funnel."
+      },
+      {
+        "role": "footnote",
+        "text": "Sources: Ping An Securities / Huajing Industry Research Institute; Guanyan Tianxia; China Golf Association / China Sports Daily."
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide03/slide03_img1.jpg",
+        "native_aspect_ratio": "196:205",
+        "native_aspect_decimal": 0.956,
+        "native_px": [196, 205],
+        "display_position_in": { "left": 0.85, "top": 3.125, "width": 2.042, "height": 2.125 },
+        "description": "A young woman in a white visor, cream top and beige trousers captured mid golf swing on a lush green outdoor course, illustrating traditional on-course play.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide03/slide03_img2.jpg",
+        "native_aspect_ratio": "196:205",
+        "native_aspect_decimal": 0.956,
+        "native_px": [196, 205],
+        "display_position_in": { "left": 7.142, "top": 3.125, "width": 2.042, "height": 2.125 },
+        "description": "A young woman in a navy top and white pleated skirt swinging a club in front of an indoor golf simulator screen showing a projected fairway, illustrating indoor venue play.",
+        "role": "photo"
+      }
+    ],
+    "logical_links": "The slide is a two-column comparative data story whose bold headline asserts that golf participation is growing while indoor venues make access more repeatable. The left column ('On-course participation keeps rising') pairs the outdoor swing photo with a bar series rising 93.7→98.5 from 2018–2023 and a +5.1% callout, supporting its callout that the core base is meaningful but grows steadily. The right column ('Indoor golf is scaling faster') pairs the indoor-simulator photo with rounds climbing 4.61→10.07 from 2021–2024 and a much larger +118% figure, supporting its callout that indoor venues are an entry engine. The deliberate contrast between the modest +5.1% and dramatic +118% is the slide's core argument, resolved in the bottom rounded-rectangle synthesis that golf access is shifting from exclusive course participation toward a broader urban participation funnel, with sources footnoted at the very bottom."
+  },
+  {
+    "slide_number": 4,
+    "slide_role": "Content",
+    "title": "Golfcore is making golf discoverable before consumers become players.",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "MALBON CHINA"
+      },
+      {
+        "role": "title",
+        "text": "Golfcore is making golf discoverable before consumers become players.",
+        "children": [
+          {
+            "role": "subtitle",
+            "text": "China Golf Market Observation: Social Interest & Youth Signal"
+          },
+          {
+            "role": "body",
+            "text": "For many young consumers, the first entry into golf may be style, content and social identity — before full participation in the sport."
+          }
+        ]
+      },
+      {
+        "role": "kpi",
+        "text": "500M",
+        "children": [
+          { "role": "heading", "text": "Golf outfit content" },
+          { "role": "caption", "text": "views on Xiaohongshu golf outfit-related terms" },
+          { "role": "body", "text": "Golf style is already breaking beyond core players and entering platform culture." }
+        ]
+      },
+      {
+        "role": "kpi",
+        "text": "+32%",
+        "children": [
+          { "role": "caption", "text": "Xiaohongshu Search Growth\nY24 vs Y25" }
+        ]
+      },
+      {
+        "role": "kpi",
+        "text": "+45.9%",
+        "children": [
+          { "role": "caption", "text": "Douyin Search Growth\nY24 vs Y25" }
+        ]
+      },
+      {
+        "role": "kpi",
+        "text": ">50%",
+        "children": [
+          { "role": "caption", "text": "Users aged 23–35 account for over 50% of the golf-interest audience" }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Malbon can convert golfcore attention into cultural entry — from wearing the code to joining the game."
+      },
+      {
+        "role": "footnote",
+        "text": "Sources: Xinhua / Beijing Business Today; Xiaohongshu Ball Sports Trend Forecast; Future Market Insights."
+      },
+      {
+        "role": "page-number",
+        "text": "04"
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide04/slide04_img1.jpg",
+        "native_aspect_ratio": "182:353",
+        "native_aspect_decimal": 0.516,
+        "native_px": [182, 353],
+        "display_position_in": { "left": 3.877, "top": 2.466, "width": 1.897, "height": 3.677 },
+        "description": "A Xiaohongshu app screenshot of the hashtag feed '#高尔夫穿搭' (golf outfit) with 5.1亿 views, showing a grid of posts featuring women in golf attire, golf bags and colorful accessories.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide04/slide04_img2.jpg",
+        "native_aspect_ratio": "91:177",
+        "native_aspect_decimal": 0.514,
+        "native_px": [182, 354],
+        "display_position_in": { "left": 5.201, "top": 2.767, "width": 1.897, "height": 3.683 },
+        "description": "A Xiaohongshu app screenshot of the hashtag feed '#golfcore' with 265.3万 views, showing a grid of stylish golf-outfit lifestyle posts of young women on and around courses.",
+        "role": "screenshot"
+      }
+    ],
+    "logical_links": "The slide argues that 'golfcore' (golf as fashion/content) is a discovery funnel that precedes actual play, set up by the headline and the body line that style, content and social identity are the first entry point for young consumers. The two centered Xiaohongshu screenshots (#高尔夫穿搭 and #golfcore) provide platform-native proof of this content culture and anchor the left '500M views' KPI block, which states golf style is breaking beyond core players. The right-hand stack of three KPIs escalates the evidence — +32% Xiaohongshu and +45.9% Douyin search growth (Y24 vs Y25) show rising demand, while >50% of the golf-interest audience being aged 23–35 confirms the youth signal. The bottom rounded-rectangle callout converts all this into the strategic implication: Malbon can turn golfcore attention into cultural entry, 'from wearing the code to joining the game,' with sources and page number 04 at the foot."
+  },
+  {
+    "slide_number": 5,
+    "slide_role": "Content",
+    "title": "Although golf has gained more visibility, it still feels difficult to enter and lacks appeal for new users.",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "MALBON CHINA"
+      },
+      {
+        "role": "title",
+        "text": "Although golf has gained more visibility, it still feels difficult to enter and lacks appeal for new users.",
+        "children": [
+          {
+            "role": "subtitle",
+            "text": "Cultural Tension"
+          },
+          {
+            "role": "body",
+            "text": "The market shift creates a contradiction: young consumers are attracted by golf’s lifestyle appeal but still feel unsure if they belong in golf culture."
+          }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Status Barrier",
+        "children": [
+          { "role": "callout", "text": "72% of users believe that the high cost of golf equipment and club memberships is not only a basic requirement to get into the sport, but also a way people show social status and identity*" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Lack of style and variety",
+        "children": [
+          { "role": "callout", "text": "“I really wish there were more good-looking pants. The ones in stores are either too short or just not nice…, and the skirts aren’t great either.”" },
+          { "role": "callout", "text": "“Everything is just white and blue now, maybe a slightly brighter yellow at best. The colors and patterns are all so boring. I can’t even find anything in neon colors that I want to buy.”" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "No Ice Breaker ",
+        "children": [
+          { "role": "body", "text": "Unlike F1 or tennis, it doesn’t have strong cultural icons that break into popularity" }
+        ]
+      },
+      {
+        "role": "footnote",
+        "text": "Source: CBNData’s 2025 Sports & Outdoor Interest Group Consumer Insights Paper, N=1,500 "
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide05/slide05_img1.png",
+        "native_aspect_ratio": "157:209",
+        "native_aspect_decimal": 0.751,
+        "native_px": [157, 209],
+        "display_position_in": { "left": 0.904, "top": 3.95, "width": 1.632, "height": 2.177 },
+        "description": "A young man in a black golf polo and white trousers holding a glove, standing on a green course, conveying golf's premium, status-oriented image.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide05/slide05_img2.png",
+        "native_aspect_ratio": "239:44",
+        "native_aspect_decimal": 5.432,
+        "native_px": [239, 44],
+        "display_position_in": { "left": 5.636, "top": 4.159, "width": 2.484, "height": 0.461 },
+        "description": "A cropped Chinese social-media comment screenshot complaining that golf pants in stores are short and ugly and that Korean trend brands' skirts are too pricey.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide05/slide05_img3.png",
+        "native_aspect_ratio": "239:47",
+        "native_aspect_decimal": 5.085,
+        "native_px": [239, 47],
+        "display_position_in": { "left": 5.636, "top": 5.595, "width": 2.484, "height": 0.485 },
+        "description": "A cropped Chinese social-media comment screenshot complaining that golf apparel is now all white and blue with boring colors and patterns and no neon options.",
+        "role": "screenshot"
+      },
+      {
+        "file": "images/slide05/slide05_img4.png",
+        "native_aspect_ratio": "143:191",
+        "native_aspect_decimal": 0.749,
+        "native_px": [143, 191],
+        "display_position_in": { "left": 9.754, "top": 4.89, "width": 1.494, "height": 1.991 },
+        "description": "An 'F1' movie poster featuring Brad Pitt in white racing gear standing beside a crashed race car, used as an example of a sport with a strong cultural icon.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide05/slide05_img5.png",
+        "native_aspect_ratio": "143:191",
+        "native_aspect_decimal": 0.749,
+        "native_px": [143, 191],
+        "display_position_in": { "left": 11.382, "top": 5.266, "width": 1.494, "height": 1.991 },
+        "description": "A red-toned 'Champion' tennis poster of a female player mid-action with an Olympic rings logo, used as another example of a sport with breakout cultural icons.",
+        "role": "photo"
+      }
+    ],
+    "logical_links": "This slide diagnoses the cultural tension that counterbalances the prior opportunity slides: despite golf's rising visibility, it remains hard to enter, framed by the headline and the body contradiction that young consumers want the lifestyle but feel unsure they belong. The body splits into three side-by-side barrier columns. 'Status Barrier' is supported by the premium male-golfer photo and the 72% statistic that cost signals social status. 'Lack of style and variety' is evidenced by two real Chinese consumer-comment screenshots griping about ugly, repetitive white-and-blue apparel. 'No Ice Breaker' is illustrated by the F1 (Brad Pitt) and tennis 'Champion' posters as contrasting sports that do have breakout cultural icons, reinforcing that golf lacks one. The three barriers read left to right as the obstacles Malbon must overcome, with the CBNData source asterisked at the foot supporting the 72% figure."
+  },
+  {
+    "slide_number": 6,
+    "slide_role": "Data chart",
+    "title": "Malbon has seen a significant increase in conversation volume within the golf category, with further growth potential in the lifestyle space.",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "MALBON CHINA"
+      },
+      {
+        "role": "title",
+        "text": "Malbon has seen a significant increase in conversation volume within the golf category, with further growth potential in the lifestyle space.",
+        "children": [
+          {
+            "role": "subtitle",
+            "text": "Social Assessment"
+          }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Number of RED Mentions and YTD Growth Rate",
+        "children": [
+          { "role": "caption", "text": "(2025.6.1 – 2026.5.29) " }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide06/slide06_img1.png",
+        "native_aspect_ratio": "71:36",
+        "native_aspect_decimal": 1.972,
+        "native_px": [71, 36],
+        "display_position_in": { "left": 3.595, "top": 6.203, "width": 0.744, "height": 0.372 },
+        "description": "The red 'Wilson' wordmark logo.",
+        "role": "logo"
+      },
+      {
+        "file": "images/slide06/slide06_img2.png",
+        "native_aspect_ratio": "1:1",
+        "native_aspect_decimal": 1.0,
+        "native_px": [64, 64],
+        "display_position_in": { "left": 9.011, "top": 6.06, "width": 0.663, "height": 0.663 },
+        "description": "The black 'HONMA' logo with its circular emblem.",
+        "role": "logo"
+      },
+      {
+        "file": "images/slide06/slide06_img3.png",
+        "native_aspect_ratio": "1:1",
+        "native_aspect_decimal": 1.0,
+        "native_px": [71, 71],
+        "display_position_in": { "left": 7.163, "top": 6.057, "width": 0.734, "height": 0.734 },
+        "description": "The handwritten-script 'Malbon' logo.",
+        "role": "logo"
+      },
+      {
+        "file": "images/slide06/slide06_img4.png",
+        "native_aspect_ratio": "69:56",
+        "native_aspect_decimal": 1.232,
+        "native_px": [69, 56],
+        "display_position_in": { "left": 10.853, "top": 6.1, "width": 0.723, "height": 0.578 },
+        "description": "The G/FORE interlocking 'GG' monogram logo.",
+        "role": "logo"
+      },
+      {
+        "file": "images/slide06/slide06_img5.png",
+        "native_aspect_ratio": "269:148",
+        "native_aspect_decimal": 1.818,
+        "native_px": [269, 148],
+        "display_position_in": { "left": 1.647, "top": 6.125, "width": 0.982, "height": 0.542 },
+        "description": "The green 'Barbour' wordmark logo.",
+        "role": "logo"
+      },
+      {
+        "file": "images/slide06/slide06_img6.png",
+        "native_aspect_ratio": "12:5",
+        "native_aspect_decimal": 2.4,
+        "native_px": [348, 145],
+        "display_position_in": { "left": 5.249, "top": 6.226, "width": 1.005, "height": 0.416 },
+        "description": "The black-and-red boxed 'HUNTER' logo.",
+        "role": "logo"
+      }
+    ],
+    "logical_links": "This is a social-listening benchmark slide whose headline claims Malbon's golf-category conversation volume has risen significantly, with further upside in lifestyle. The 'Social Assessment' label and the chart heading 'Number of RED Mentions and YTD Growth Rate (2025.6.1 – 2026.5.29)' define the metric and window. Along the bottom axis sit a row of competitor/peer brand logos — Barbour, Wilson, Malbon, Hunter, Honma and G/FORE — which serve as the category set being compared on RED (Xiaohongshu) mention volume and growth; Malbon's own script logo appears among them as the subject of the assessment. The logos act as chart-axis labels positioning Malbon against both golf-equipment players (Wilson, Honma, G/FORE) and lifestyle/heritage brands (Barbour, Hunter), reinforcing the headline's golf-versus-lifestyle framing."
+  },
+  {
+    "slide_number": 7,
+    "slide_role": "Content",
+    "title": "Malbon opens up golf culture.",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "MALBON CHINA"
+      },
+      {
+        "role": "title",
+        "text": "Malbon opens up golf culture.",
+        "children": [
+          {
+            "role": "subtitle",
+            "text": "Brand Essence"
+          },
+          {
+            "role": "body",
+            "text": "Malbon was not built to simply make golf apparel. It was built to make golf feel fresh, welcoming and culturally alive for today’s generation."
+          },
+          {
+            "role": "body",
+            "text": "It respects the game but does not let old codes decide who belongs. It gives players and newcomers permission to participate in golf culture in their own way."
+          }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Golf Root",
+        "children": [
+          { "role": "caption", "text": "Built from the game." }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Lifestyle Expression",
+        "children": [
+          { "role": "caption", "text": "Relevant on and off the course; from fairway to city life." }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Community Belonging",
+        "children": [
+          { "role": "caption", "text": "Not followers, but fellow players connected by a shared culture." }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "file": "images/slide07/slide07_img1.gif",
+        "native_aspect_ratio": "50:89",
+        "native_aspect_decimal": 0.562,
+        "native_px": [400, 712],
+        "display_position_in": { "left": 9.233, "top": 3.501, "width": 1.856, "height": 3.304 },
+        "description": "An aerial shot of a sweeping green fairway with golfers and bags walking up the hole, annotated with playful labels like '17-Year MLB Vetran', 'Multi-Platinum Recording Artist', 'Augusta National Invitee', 'First Time Golfing' and '456-Yard Driver', conveying a mixed, inclusive community of players.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide07/slide07_img2.jpg",
+        "native_aspect_ratio": "3:4",
+        "native_aspect_decimal": 0.75,
+        "native_px": [240, 320],
+        "display_position_in": { "left": 1.354, "top": 3.561, "width": 2.501, "height": 3.334 },
+        "description": "A professional golfer in a white quarter-zip and light-blue trousers walking the fairway holding a putter during a tournament, representing golf credibility and roots in the game.",
+        "role": "photo"
+      },
+      {
+        "file": "images/slide07/slide07_img3.jpg",
+        "native_aspect_ratio": "3:4",
+        "native_aspect_decimal": 0.75,
+        "native_px": [240, 320],
+        "display_position_in": { "left": 4.967, "top": 3.561, "width": 2.501, "height": 3.334 },
+        "description": "An editorial lifestyle shot of two models on stone steps — a woman in a black jumpsuit in front and a man in a green 'Malbon' varsity jacket and white shorts behind — conveying golf-rooted style worn off the course in city life.",
+        "role": "photo"
+      }
+    ],
+    "logical_links": "This slide defines Malbon's brand essence as 'Malbon opens up golf culture,' elaborated by the two body lines stating the brand was built to make golf feel fresh and welcoming and to give newcomers permission to belong. The essence is then operationalized into three pillars read left to right that map directly onto the three images above them: 'Golf Root' (Built from the game) sits over the tournament golfer photo conveying credibility; 'Lifestyle Expression' (from fairway to city life) sits over the editorial off-course style shot in Malbon apparel; and 'Community Belonging' (fellow players connected by shared culture) sits over the annotated fairway GIF showing a mixed cast from a first-time golfer to a recording artist. The image-to-pillar pairing visually proves each abstract value, building the bridge from credibility through style to community that the rest of the strategy will leverage."
+  },
+  {
+    "slide_number": 8,
+    "slide_role": "Content",
+    "title": "Malbon can make golf easier to enter without making it less aspirational.",
+    "text_hierarchy": [
+      {
+        "role": "section-label",
+        "text": "MALBON CHINA"
+      },
+      {
+        "role": "title",
+        "text": "Malbon can make golf easier to enter without making it less aspirational.",
+        "children": [
+          {
+            "role": "subtitle",
+            "text": "Malbon China Opportunity"
+          },
+          {
+            "role": "body",
+            "text": "The opportunity is not to become a more professional golf brand, or a more golf-looking lifestyle brand — but to own the space between golf credibility and lifestyle entry."
+          }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Traditional golf brands",
+        "children": [
+          { "role": "body", "text": "Professional and credible, but often formal, technical and distant." },
+          { "role": "caption", "text": "Existing golfer-focused" }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Malbon’s space",
+        "children": [
+          {
+            "role": "callout",
+            "text": "Rooted in the game,"
+          },
+          {
+            "role": "callout",
+            "text": "expressed through style,"
+          },
+          {
+            "role": "callout",
+            "text": "and sustained by community."
+          },
+          { "role": "caption", "text": "Strategic Role" },
+          { "role": "caption", "text": "The cultural entry point into golf lifestyle in China." }
+        ]
+      },
+      {
+        "role": "heading",
+        "text": "Lifestyle / streetwear brands",
+        "children": [
+          { "role": "body", "text": "Stylish and culturally relevant, but often only borrowing golf aesthetics." },
+          { "role": "caption", "text": "Style-led, but not always golf-rooted" }
+        ]
+      },
+      {
+        "role": "page-number",
+        "text": "06"
+      }
+    ],
+    "images": [],
+    "logical_links": "This positioning slide frames Malbon's strategic white space, with the headline asserting it can make golf easier to enter without losing aspiration and the body defining the goal as owning the space between golf credibility and lifestyle entry. The layout is a three-column spectrum: on the left, 'Traditional golf brands' are professional and credible but formal, technical and distant (existing-golfer focused); on the right, 'Lifestyle / streetwear brands' are stylish and relevant but only borrow golf aesthetics (style-led, not golf-rooted). The center column, 'Malbon’s space,' resolves the two extremes with the triad 'Rooted in the game, expressed through style, and sustained by community,' and its strategic role as 'the cultural entry point into golf lifestyle in China.' The reading flow moves from the two flanking poles inward to Malbon's reconciling middle position, with page number 06 at the foot."
+  }
+]

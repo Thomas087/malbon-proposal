@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Office temp/lock files
+~$*
+
+# Source PowerPoint (large binary) and its unzipped contents — kept locally, not committed
+*.pptx
+extracted/
