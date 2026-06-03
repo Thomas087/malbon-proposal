@@ -95,6 +95,9 @@
   const DESIGN_W_DEFAULT = 1920;
   const DESIGN_H_DEFAULT = 1080;
   const OVERLAY_HIDE_MS = 1800;
+  // Min horizontal travel (CSS px) for a touch drag to count as a navigation
+  // swipe rather than a tap.
+  const SWIPE_MIN = 45;
   const VALIDATE_ATTR = 'no_overflowing_text,no_overlapping_text,slide_sized_text';
   const FINE_POINTER_MQ = matchMedia('(hover: hover) and (pointer: fine)');
   const NARROW_MQ = matchMedia('(max-width: 640px)');
@@ -582,6 +585,8 @@
       this._onSlotChange = this._onSlotChange.bind(this);
       this._onMouseMove = this._onMouseMove.bind(this);
       this._onTap = this._onTap.bind(this);
+      this._onTouchStart = this._onTouchStart.bind(this);
+      this._onTouchEnd = this._onTouchEnd.bind(this);
       this._onMessage = this._onMessage.bind(this);
       // Capture-phase close so a click anywhere dismisses the menu, but
       // ignore clicks that land inside the menu itself — otherwise the
@@ -614,6 +619,11 @@
       window.addEventListener('message', this._onMessage);
       window.addEventListener('click', this._onDocClick, true);
       this.addEventListener('click', this._onTap);
+      // Touch swipe nav: left/right to advance/go back. touchend is
+      // non-passive so a recognised swipe can preventDefault the trailing
+      // synthesized click (e.g. when the gesture starts over a link).
+      this.addEventListener('touchstart', this._onTouchStart, { passive: true });
+      this.addEventListener('touchend', this._onTouchEnd, { passive: false });
       // Print lays every slide out as its own page, so [data-deck-active]-
       // gated entrance styles need the attribute on every slide (not just
       // the current one) or their content prints at the hidden base style.
@@ -824,6 +834,8 @@
       window.removeEventListener('afterprint', this._onAfterPrint);
       if (this._freezeStyle) { this._freezeStyle.remove(); this._freezeStyle = null; }
       this.removeEventListener('click', this._onTap);
+      this.removeEventListener('touchstart', this._onTouchStart);
+      this.removeEventListener('touchend', this._onTouchEnd);
       if (this._hideTimer) clearTimeout(this._hideTimer);
       if (this._mouseIdleTimer) clearTimeout(this._mouseIdleTimer);
       if (this._liveTimer) clearTimeout(this._liveTimer);
@@ -1294,9 +1306,38 @@
       this._rail.inert = hard || !this._railVisible;
     }
 
+    // Touch swipe navigation — works the same in portrait and landscape
+    // since it keys off screen-space horizontal travel. touchstart records
+    // the origin; touchend classifies the gesture.
+    _onTouchStart(e) {
+      // Single-finger only; a second finger (pinch) cancels swipe tracking.
+      if (e.touches.length !== 1) { this._touchStart = null; return; }
+      const t = e.touches[0];
+      this._touchStart = { x: t.clientX, y: t.clientY };
+      this._swiped = false;
+    }
+
+    _onTouchEnd(e) {
+      const start = this._touchStart;
+      this._touchStart = null;
+      if (!start || e.changedTouches.length !== 1) return;
+      const t = e.changedTouches[0];
+      const dx = t.clientX - start.x;
+      const dy = t.clientY - start.y;
+      // A swipe clears SWIPE_MIN horizontally and is more horizontal than
+      // vertical; anything else falls through to the tap handler.
+      if (Math.abs(dx) < SWIPE_MIN || Math.abs(dx) <= Math.abs(dy)) return;
+      this._swiped = true;   // suppress the trailing click/tap
+      e.preventDefault();    // and any synthesized click (e.g. over a link)
+      // Swipe left (dx<0) → next, swipe right (dx>0) → previous.
+      this._advance(dx < 0 ? 1 : -1, 'swipe');
+    }
+
     _onTap(e) {
       // Touch-only — keyboard + the overlay toolbar cover nav on desktop.
       if (FINE_POINTER_MQ.matches) return;
+      // A swipe already navigated and fired a trailing click; swallow it.
+      if (this._swiped) { this._swiped = false; return; }
       // Only taps that land on the stage (slide content or letterbox); the
       // overlay / rail / menus are siblings with their own click handlers.
       const path = e.composedPath();
