@@ -95,6 +95,9 @@
   const DESIGN_W_DEFAULT = 1920;
   const DESIGN_H_DEFAULT = 1080;
   const OVERLAY_HIDE_MS = 1800;
+  // Minimum travel (px) along the nav axis for a touch drag to count as a
+  // swipe rather than a tap.
+  const SWIPE_MIN = 40;
   const VALIDATE_ATTR = 'no_overflowing_text,no_overlapping_text,slide_sized_text';
   const FINE_POINTER_MQ = matchMedia('(hover: hover) and (pointer: fine)');
   const NARROW_MQ = matchMedia('(max-width: 640px)');
@@ -558,6 +561,30 @@
       ::slotted([data-deck-skip]) { display: none !important; }
       .overlay, .rail, .rail-resize, .ctxmenu, .confirm-backdrop { display: none !important; }
     }
+
+    /* ── Portrait phone: rotated nav bar ─────────────────────────────────
+       On a portrait phone _fit() rotates the canvas -90° to fill the screen
+       (see _shouldRotate). The bottom-centre nav bar would then sit sideways
+       relative to the slide, so we pin it to the screen's right edge and
+       rotate it the same -90° — it reads as a horizontal bar along the
+       bottom of the landscape slide, vertically centred. The media query
+       mirrors _shouldRotate's condition (≤640px AND portrait). translate(50%,
+       -50%) with right:0/top:50% centres the (auto-width) bar on the right
+       edge regardless of its content width; the leading translateX pulls it
+       a few px inward in screen space (6px more when shown, for the slide-in). */
+    @media (max-width: 640px) and (orientation: portrait) {
+      .overlay {
+        left: auto;
+        right: 0;
+        bottom: auto;
+        top: 50%;
+        transform-origin: center center;
+        transform: translateX(-22px) translate(50%, -50%) rotate(-90deg) scale(0.92);
+      }
+      .overlay[data-visible] {
+        transform: translateX(-28px) translate(50%, -50%) rotate(-90deg) scale(1);
+      }
+    }
   `;
 
   class DeckStage extends HTMLElement {
@@ -578,6 +605,8 @@
       this._onSlotChange = this._onSlotChange.bind(this);
       this._onMouseMove = this._onMouseMove.bind(this);
       this._onTap = this._onTap.bind(this);
+      this._onTouchStart = this._onTouchStart.bind(this);
+      this._onTouchEnd = this._onTouchEnd.bind(this);
       this._onMessage = this._onMessage.bind(this);
       // Capture-phase close so a click anywhere dismisses the menu, but
       // ignore clicks that land inside the menu itself — otherwise the
@@ -610,6 +639,8 @@
       window.addEventListener('message', this._onMessage);
       window.addEventListener('click', this._onDocClick, true);
       this.addEventListener('click', this._onTap);
+      this.addEventListener('touchstart', this._onTouchStart, { passive: true });
+      this.addEventListener('touchend', this._onTouchEnd, { passive: true });
       // Print lays every slide out as its own page, so [data-deck-active]-
       // gated entrance styles need the attribute on every slide (not just
       // the current one) or their content prints at the hidden base style.
@@ -820,6 +851,8 @@
       window.removeEventListener('afterprint', this._onAfterPrint);
       if (this._freezeStyle) { this._freezeStyle.remove(); this._freezeStyle = null; }
       this.removeEventListener('click', this._onTap);
+      this.removeEventListener('touchstart', this._onTouchStart);
+      this.removeEventListener('touchend', this._onTouchEnd);
       if (this._hideTimer) clearTimeout(this._hideTimer);
       if (this._mouseIdleTimer) clearTimeout(this._mouseIdleTimer);
       if (this._liveTimer) clearTimeout(this._liveTimer);
@@ -1203,8 +1236,26 @@
       if (this._overlay) this._overlay.style.marginLeft = (rw / 2) + 'px';
       const vw = window.innerWidth - rw;
       const vh = window.innerHeight;
+      // Portrait phone: rotate the landscape (16:9) canvas 90° so it fills the
+      // upright screen edge-to-edge instead of fitting to width and leaving big
+      // top/bottom letterbox bars. Rotated, the design *height* maps to screen
+      // width and the design *width* maps to screen height.
+      if (this._shouldRotate()) {
+        const s = Math.min(vw / this.designHeight, vh / this.designWidth);
+        this._canvas.style.transform = `rotate(-90deg) scale(${s})`;
+        return;
+      }
       const s = Math.min(vw / this.designWidth, vh / this.designHeight);
       this._canvas.style.transform = `scale(${s})`;
+    }
+
+    /** True on a narrow viewport held in portrait — the only case where the
+     *  16:9 canvas is rotated to landscape to fill a phone screen. Excludes
+     *  noscale (PPTX capture), any landscape viewport, and anything wider than
+     *  the narrow breakpoint (portrait tablets keep the normal letterbox fit). */
+    _shouldRotate() {
+      if (this.hasAttribute('noscale')) return false;
+      return window.innerHeight > window.innerWidth && NARROW_MQ.matches;
     }
 
     _onResize() {
@@ -1293,6 +1344,9 @@
     _onTap(e) {
       // Touch-only — keyboard + the overlay toolbar cover nav on desktop.
       if (FINE_POINTER_MQ.matches) return;
+      // A swipe already navigated on touchend and emits a trailing click —
+      // swallow it so the same gesture doesn't also fire a tap.
+      if (this._didSwipe) { this._didSwipe = false; return; }
       // Only taps that land on the stage (slide content or letterbox); the
       // overlay / rail / menus are siblings with their own click handlers.
       const path = e.composedPath();
@@ -1307,9 +1361,57 @@
         if (n.matches && n.matches(INTERACTIVE_SEL)) return;
       }
       e.preventDefault();
+      // When the canvas is rotated -90° (portrait phone), the slide's visual
+      // left/right run along the screen's vertical axis: the slide's right
+      // edge points up, so the top half advances forward.
+      if (this._shouldRotate()) {
+        this._advance(e.clientY < window.innerHeight / 2 ? 1 : -1, 'tap');
+        return;
+      }
       const rw = this._railWidth();
       const mid = rw + (window.innerWidth - rw) / 2;
       this._advance(e.clientX < mid ? -1 : 1, 'tap');
+    }
+
+    _onTouchStart(e) {
+      this._didSwipe = false;
+      this._swipeStart = null;
+      const t = e.changedTouches && e.changedTouches[0];
+      if (!t) return;
+      // Same eligibility gates as _onTap: only gestures that begin on the
+      // stage (slide content / letterbox), not on interactive slide content.
+      const path = e.composedPath();
+      if (!this._stage || !path.includes(this._stage)) return;
+      for (const n of path) {
+        if (n === this._stage) break;
+        if (n.matches && n.matches(INTERACTIVE_SEL)) return;
+      }
+      this._swipeStart = { x: t.clientX, y: t.clientY };
+    }
+
+    _onTouchEnd(e) {
+      const start = this._swipeStart;
+      this._swipeStart = null;
+      if (!start) return;
+      const t = e.changedTouches && e.changedTouches[0];
+      if (!t) return;
+      const dx = t.clientX - start.x;
+      const dy = t.clientY - start.y;
+      // Navigation runs along the slide's visual horizontal axis: physical X
+      // normally, but physical Y when the canvas is rotated -90° on a portrait
+      // phone (where the slide's right edge points up). A flick toward the
+      // slide's visual left advances forward, matching the carousel norm and
+      // the tap split in _onTap.
+      const rotated = this._shouldRotate();
+      const along = rotated ? dy : dx;
+      const across = rotated ? dx : dy;
+      // Require a clear, mostly-axis-aligned flick so vertical scroll-intent
+      // or stray drags don't navigate.
+      if (Math.abs(along) < SWIPE_MIN || Math.abs(along) <= Math.abs(across)) return;
+      // not-rotated: visual-left = dx<0 → next. rotated: visual-left = dy>0 → next.
+      const dir = rotated ? (along > 0 ? 1 : -1) : (along < 0 ? 1 : -1);
+      this._didSwipe = true;
+      this._advance(dir, 'tap');
     }
 
     _onKey(e) {
