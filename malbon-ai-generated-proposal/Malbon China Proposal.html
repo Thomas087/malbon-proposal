@@ -109,7 +109,7 @@
 
   /* ---------- divider ---------- */
   .divider{position:relative; padding:0; justify-content:flex-end; color:var(--cream)}
-  .divider .bg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
+  .divider .bg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center top}
   .divider .wash{position:absolute; inset:0;
       background:linear-gradient(180deg,rgba(15,18,24,.30) 0%,rgba(15,18,24,.20) 45%,rgba(15,18,24,.78) 100%)}
   .divider .dcontent{position:relative; padding:var(--pad-bottom) var(--pad-x) calc(var(--pad-bottom) + 12px)}
@@ -124,7 +124,7 @@
 
   /* cover */
   .cover{position:relative; padding:0; color:var(--cream)}
-  .cover .bg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
+  .cover .bg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center top}
   .cover .wash{position:absolute; inset:0;
       background:linear-gradient(110deg,rgba(15,18,24,.74) 0%,rgba(15,18,24,.42) 50%,rgba(15,18,24,.20) 100%)}
   .cover .cc{position:relative; height:100%; display:flex; flex-direction:column;
@@ -1588,7 +1588,7 @@
 
   <!-- 46 · DIVIDER Case study -->
   <section class="divider" data-label="Case Study">
-    <img class="bg" src="uploads/brand-assets/hero-03-buckets-slide.jpg" alt="">
+    <img class="bg" src="uploads/brand-assets/hero-03-buckets-slide.jpg" style="object-position:center" alt="">
     <div class="wash"></div>
     <span class="dnum">08</span>
     <img class="dscript" src="uploads/brand-assets/logo.png" alt="Malbon">
